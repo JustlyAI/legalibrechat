@@ -104,3 +104,8 @@ uploads/
 
 # owner
 release/
+
+# dev
+README.dev.md
+docker-compose.override.dev.yml
+TODO

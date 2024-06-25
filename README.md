@@ -1,4 +1,23 @@
 <p align="center">
+  <a href="https://legallibrechat.ai">
+    <img src="client/public/assets/legal-logo.png" height="256">
+  </a>
+  <h1 align="center">
+    <a href="https://legallibrechat.ai">LegalLibreChat - Legal AI built on the LibreChat open source project </a>
+  </h1>
+</p>
+
+<h2 align="center">List of Changes to LibreChat</h2>
+<ul align="left">
+  <li>Changed logo and favicons to LegalLibreChat.</li>
+  <li>Changed meilisearch API key.</li>
+</ul>
+
+<hr>
+
+
+
+<p align="center">
   <a href="https://librechat.ai">
     <img src="client/public/assets/logo.svg" height="256">
   </a>

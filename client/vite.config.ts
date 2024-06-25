@@ -77,7 +77,7 @@ export default defineConfig({
             type: 'image/png',
           },
           {
-            src: '/assets/favicon-16x16.png',
+            src: '/assets/legal-favicon-16x16.png',
             sizes: '16x16',
             type: 'image/png',
           },
