@@ -1,5 +1,5 @@
 {
-  "name": "LibreChat",
+  "name": "librechat",
   "version": "0.7.4-rc1",
   "description": "",
   "workspaces": [
@@ -62,14 +62,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/justlyai/librechat.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danny-avila/LibreChat/issues"
   },
-  "homepage": "https://librechat.ai/",
+  "homepage": "https://legalllibrechat.ai/",
   "devDependencies": {
     "@playwright/test": "^1.38.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",

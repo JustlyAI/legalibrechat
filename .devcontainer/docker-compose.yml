@@ -21,7 +21,7 @@ services:
       # - /var/run/docker.sock:/var/run/docker.sock 
     environment:
       - HOST=0.0.0.0
-      - MONGO_URI=mongodb://mongodb:27017/LibreChat
+      - MONGO_URI=mongodb://mongodb:27017/librechat
       # - CHATGPT_REVERSE_PROXY=http://host.docker.internal:8080/api/conversation # if you are hosting your own chatgpt reverse proxy with docker
       # - OPENAI_REVERSE_PROXY=http://host.docker.internal:8070/v1/chat/completions # if you are hosting your own chatgpt reverse proxy with docker
       - MEILI_HOST=http://meilisearch:7700
@@ -60,6 +60,6 @@ services:
     #   - 7700:7700 # if exposing these ports, make sure your master key is not the default value
     environment:
       - MEILI_NO_ANALYTICS=true
-      - MEILI_MASTER_KEY=5c71cf56d672d009e36070b5bc5e47b743535ae55c818ae3b735bb6ebfb4ba63
+      - MEILI_MASTER_KEY=b46b6ac5ef9f1d081c1293ab2e1cfea03a6ff76e
     volumes:
       - ./meili_data_v1.5:/meili_data

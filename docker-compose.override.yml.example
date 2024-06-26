@@ -19,7 +19,7 @@ version: '3.4'
 #     - type: bind
 #       source: ./librechat.yaml
 #       target: /app/librechat.yaml
-#     image: ghcr.io/danny-avila/librechat:latest
+#     image: ghcr.io/justlyai/librechat:latest # ghcr.io/danny-avila/librechat:latest
 
 # ---------------------------------------------------
 
@@ -41,19 +41,19 @@ version: '3.4'
 
 # # BUILD FROM LATEST IMAGE
 #   api:
-#     image: ghcr.io/danny-avila/librechat-dev:latest
+#     image: librechat-dev:latest # ghcr.io/danny-avila/librechat-dev:latest
  
 # # BUILD FROM LATEST IMAGE (NUMBERED RELEASE)
 #   api:
-#     image: ghcr.io/danny-avila/librechat:latest
+#     image: ghcr.io/justlyai/librechat:latest # ghcr.io/danny-avila/librechat:latest
 
 # # BUILD FROM LATEST API IMAGE
 #   api:
-#     image: ghcr.io/danny-avila/librechat-dev-api:latest
+#     image: librechat-dev-api:latest # ghcr.io/danny-avila/librechat-dev-api:latest
 
 # # BUILD FROM LATEST API IMAGE (NUMBERED RELEASE)
 #   api:
-#     image: ghcr.io/danny-avila/librechat-api:latest
+#     image: ghcr.io/justlyai/librechat-api:latest # ghcr.io/danny-avila/librechat-api:latest
 
 # # ADD MONGO-EXPRESS
 #   mongo-express:

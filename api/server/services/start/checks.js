@@ -7,10 +7,10 @@ const { isEnabled, checkEmailConfig } = require('~/server/utils');
 const { logger } = require('~/config');
 
 const secretDefaults = {
-  CREDS_KEY: 'f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0',
-  CREDS_IV: 'e2341419ec3dd3d19b13a1a87fafcbfb',
-  JWT_SECRET: '16f8c0ef4a5d391b26034086c628469d3f9f497f08163ab9b40137092f2909ef',
-  JWT_REFRESH_SECRET: 'eaa5191f2914e30b9387fd84e254e4ba6fc51b4654968a9b0803b456a54b8418',
+  CREDS_KEY: 'ca3457e444bf228e4b9dfeeaa5bcf09a2f96bc0b8a65bcc715e4a621f76c3f97',
+  CREDS_IV: '74ac84ff5567c6c35cdc04143ac60e90',
+  JWT_SECRET: '8c6470f8c98e14061625dca7f6bd55ecda648fb80f7a9d81129541bd09867d32',
+  JWT_REFRESH_SECRET: 'e181e02de023081cedb849ea8538b30c614663e8bc29600f86d9cf1aa9dad6a4',
 };
 
 /**
