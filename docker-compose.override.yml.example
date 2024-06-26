@@ -17,8 +17,8 @@ version: '3.4'
 #   api:
 #     volumes:
 #     - type: bind
-#       source: ./librechat.yaml
-#       target: /app/librechat.yaml
+#       source: ./legallibrechat.yaml
+#       target: /app/legallibrechat.yaml
 #     image: ghcr.io/justlyai/librechat:latest # ghcr.io/danny-avila/librechat:latest
 
 # ---------------------------------------------------
@@ -29,8 +29,8 @@ version: '3.4'
 #   api:
 #     volumes:
 #     - type: bind
-#       source: ./librechat.yaml
-#       target: /app/librechat.yaml
+#       source: ./legallibrechat.yaml
+#       target: /app/legallibrechat.yaml
 
 # # LOCAL BUILD
 #   api:

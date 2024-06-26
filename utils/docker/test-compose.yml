@@ -12,7 +12,7 @@ services:
       context: .
       dockerfile: Dockerfile.multi
       target: prod-stage
-    container_name: librechat-NGINX
+    container_name: legallibrechat-NGINX
     ports:
       - 80:80
       - 443:443

@@ -26,8 +26,8 @@ services:
       - RAG_API_URL=http://rag_api:${RAG_PORT:-8000}
     volumes:
       - type: bind
-        source: ./librechat.yaml
-        target: /app/librechat.yaml
+        source: ./legallibrechat.yaml
+        target: /app/legallibrechat.yaml
       - ./images:/app/client/public/images
       - ./logs:/app/api/logs
   client:
@@ -35,7 +35,7 @@ services:
       context: .
       dockerfile: Dockerfile.multi
       target: prod-stage
-    container_name: librechat-NGINX
+    container_name: legallibrechat-NGINX
     ports:
       - 80:80
       - 443:443
