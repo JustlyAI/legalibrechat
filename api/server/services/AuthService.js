@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
-const { SystemRoles, errorsToString } = require('librechat-data-provider');
+const { SystemRoles, errorsToString } = require('legallibrechat-data-provider');
 const {
   findUser,
   countUsers,

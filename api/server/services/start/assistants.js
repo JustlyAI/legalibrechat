@@ -2,7 +2,7 @@ const {
   Capabilities,
   assistantEndpointSchema,
   defaultAssistantsVersion,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { logger } = require('~/config');
 
 /**
@@ -17,7 +17,7 @@ function azureAssistantsDefaults() {
 }
 
 /**
- * Sets up the Assistants configuration from the config (`librechat.yaml`) file.
+ * Sets up the Assistants configuration from the config (`legallibrechat.yaml`) file.
  * @param {TCustomConfig} config - The loaded custom configuration.
  * @param {EModelEndpoint.assistants|EModelEndpoint.azureAssistants} assistantsEndpoint - The Assistants endpoint name.
  * - The previously loaded assistants configuration from Azure OpenAI Assistants option.

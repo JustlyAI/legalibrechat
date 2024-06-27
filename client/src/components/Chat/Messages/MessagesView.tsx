@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { ReactNode } from 'react';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import ScrollToBottom from '~/components/Messages/ScrollToBottom';
 import { useScreenshot, useMessageScrolling } from '~/hooks';
 import { CSSTransition } from 'react-transition-group';

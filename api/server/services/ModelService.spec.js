@@ -194,8 +194,8 @@ describe('getOpenAIModels with mocked config', () => {
         userProvidedOpenAI: true,
       },
     }));
-    jest.mock('librechat-data-provider', () => {
-      const original = jest.requireActual('librechat-data-provider');
+    jest.mock('legallibrechat-data-provider', () => {
+      const original = jest.requireActual('legallibrechat-data-provider');
       return {
         ...original,
         defaultModels: {

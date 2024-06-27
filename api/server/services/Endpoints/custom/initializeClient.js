@@ -5,7 +5,7 @@ const {
   EModelEndpoint,
   FetchTokenConfig,
   extractEnvVariable,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { getUserKeyValues, checkUserKeyExpiry } = require('~/server/services/UserService');
 const getCustomConfig = require('~/server/services/Config/getCustomConfig');
 const { fetchModels } = require('~/server/services/ModelService');

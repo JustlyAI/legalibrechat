@@ -1,5 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react';
-import { isAssistantsEndpoint } from 'librechat-data-provider';
+import { isAssistantsEndpoint } from 'legallibrechat-data-provider';
 import type { TMessageProps } from '~/common';
 import { useChatContext, useAssistantsMapContext } from '~/Providers';
 import { getLatestText, getLengthAndFirstFiveChars } from '~/utils';

@@ -2,15 +2,15 @@ const {
   Constants,
   deprecatedAzureVariables,
   conflictingAzureVariables,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { isEnabled, checkEmailConfig } = require('~/server/utils');
 const { logger } = require('~/config');
 
 const secretDefaults = {
-  CREDS_KEY: 'f34be427ebb29de8d88c107a71546019685ed8b241d8f2ed00c3df97ad2566f0',
-  CREDS_IV: 'e2341419ec3dd3d19b13a1a87fafcbfb',
-  JWT_SECRET: '16f8c0ef4a5d391b26034086c628469d3f9f497f08163ab9b40137092f2909ef',
-  JWT_REFRESH_SECRET: 'eaa5191f2914e30b9387fd84e254e4ba6fc51b4654968a9b0803b456a54b8418',
+  CREDS_KEY: 'b460d9867a26d092464f58abd9970b6585c17bf350a9e21274296e8883fd0557',
+  CREDS_IV: '66473f98e42bfab07f83f811497e42e7',
+  JWT_SECRET: '115454fa6bb0c5e641008d4e9c14918cccf2514bd607d9697229d1f8a6a501c1',
+  JWT_REFRESH_SECRET: '6e616c539ee43bdf677ecc04fb59efa5c5ee7abf01ce3e0b6c510219b0a656d3',
 };
 
 /**
@@ -47,7 +47,7 @@ function checkVariables() {
     logger.warn(
       `The \`OPENROUTER_API_KEY\` environment variable is deprecated and its functionality will be removed soon.
       Use of this environment variable is highly discouraged as it can lead to unexpected errors when using custom endpoints.
-      Please use the config (\`librechat.yaml\`) file for setting up OpenRouter, and use \`OPENROUTER_KEY\` or another environment variable instead.`,
+      Please use the config (\`legallibrechat.yaml\`) file for setting up OpenRouter, and use \`OPENROUTER_KEY\` or another environment variable instead.`,
     );
   }
 

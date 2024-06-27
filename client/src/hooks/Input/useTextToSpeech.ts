@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import { parseTextParts } from 'librechat-data-provider';
-import type { TMessage } from 'librechat-data-provider';
+import { parseTextParts } from 'legallibrechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import useTextToSpeechExternal from './useTextToSpeechExternal';
 import useTextToSpeechBrowser from './useTextToSpeechBrowser';
 import { usePauseGlobalAudio } from '../Audio';

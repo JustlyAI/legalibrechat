@@ -3,12 +3,12 @@ import {
   LocalStorageKeys,
   InfiniteCollections,
   defaultAssistantsVersion,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useSetRecoilState } from 'recoil';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { dataService, MutationKeys, QueryKeys, defaultOrderQuery } from 'librechat-data-provider';
+import { dataService, MutationKeys, QueryKeys, defaultOrderQuery } from 'legallibrechat-data-provider';
 import type { UseMutationResult } from '@tanstack/react-query';
-import type t from 'librechat-data-provider';
+import type t from 'legallibrechat-data-provider';
 import {
   /* Shared Links */
   addSharedLink,

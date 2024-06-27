@@ -1,13 +1,13 @@
 import { useCallback } from 'react';
 import { useRecoilValue } from 'recoil';
-import { EModelEndpoint, isAssistantsEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint, isAssistantsEndpoint } from 'legallibrechat-data-provider';
 import type {
   TPreset,
   TModelSpec,
   TConversation,
   TAssistantsMap,
   TEndpointsConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { MentionOption } from '~/common';
 import { getConvoSwitchLogic, getModelSpecIconURL, removeUnavailableTools } from '~/utils';
 import { useDefaultConvo, useNewConvo } from '~/hooks';

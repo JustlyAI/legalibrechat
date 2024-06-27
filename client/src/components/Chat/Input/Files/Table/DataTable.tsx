@@ -14,9 +14,9 @@ import type {
   VisibilityState,
   ColumnFiltersState,
 } from '@tanstack/react-table';
-import { FileContext } from 'librechat-data-provider';
+import { FileContext } from 'legallibrechat-data-provider';
 import type { AugmentedColumnDef } from '~/common';
-import type { TFile } from 'librechat-data-provider';
+import type { TFile } from 'legallibrechat-data-provider';
 import {
   Button,
   Input,

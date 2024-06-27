@@ -810,7 +810,7 @@ export enum SettingsTabValues {
 export enum Constants {
   /** Key for the app's version. */
   VERSION = 'v0.7.4-rc1',
-  /** Key for the Custom Config's version (librechat.yaml). */
+  /** Key for the Custom Config's version (legallibrechat.yaml). */
   CONFIG_VERSION = '1.1.4',
   /** Standard value for the first message's `parentMessageId` value, to indicate no parent exists. */
   NO_PARENT = '00000000-0000-0000-0000-000000000000',

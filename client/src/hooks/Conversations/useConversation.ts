@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSetRecoilState, useResetRecoilState, useRecoilCallback } from 'recoil';
-import { useGetEndpointsQuery, useGetModelsQuery } from 'librechat-data-provider/react-query';
+import { useGetEndpointsQuery, useGetModelsQuery } from 'legallibrechat-data-provider/react-query';
 import type {
   TConversation,
   TMessagesAtom,
@@ -9,7 +9,7 @@ import type {
   TPreset,
   TModelsConfig,
   TEndpointsConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { buildDefaultConvo, getDefaultEndpoint, getEndpointField } from '~/utils';
 import store from '~/store';
 

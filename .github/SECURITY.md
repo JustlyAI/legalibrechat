@@ -1,6 +1,6 @@
 # Security Policy
 
-At LibreChat, we prioritize the security of our project and value the contributions of security researchers in helping us improve the security of our codebase. If you discover a security vulnerability within our project, we appreciate your responsible disclosure. Please follow the guidelines below to report any vulnerabilities to us:
+At librechat, we prioritize the security of our project and value the contributions of security researchers in helping us improve the security of our codebase. If you discover a security vulnerability within our project, we appreciate your responsible disclosure. Please follow the guidelines below to report any vulnerabilities to us:
 
 **Note: Only report sensitive vulnerability details via the appropriate private communication channels mentioned below. Public channels, such as GitHub issues and Discord, should be used for initiating contact and establishing private communication channels.**
 
@@ -26,7 +26,7 @@ We strive to acknowledge vulnerability reports within 72 hours and will keep you
 
 ## Security Updates and Patching
 
-We are committed to maintaining the security of our open-source project, LibreChat, and promptly addressing any identified vulnerabilities. To ensure the security of our project, we adhere to the following practices:
+We are committed to maintaining the security of our open-source project, librechat, and promptly addressing any identified vulnerabilities. To ensure the security of our project, we adhere to the following practices:
 
 - We prioritize security updates for the current major release of our software.
 - We actively monitor the GitHub Security Advisory system and the `#issues` channel on Discord for any vulnerability reports.

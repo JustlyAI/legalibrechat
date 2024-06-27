@@ -1,5 +1,5 @@
 import { useRecoilState } from 'recoil';
-import { EModelEndpoint, SettingsViews } from 'librechat-data-provider';
+import { EModelEndpoint, SettingsViews } from 'legallibrechat-data-provider';
 import type { ReactNode } from 'react';
 import { MessagesSquared, GPTIcon, AssistantIcon, DataIcon } from '~/components/svg';
 import { useChatContext } from '~/Providers';

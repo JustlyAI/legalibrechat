@@ -9,8 +9,8 @@ import {
   isAssistantsEndpoint,
   PermissionTypes,
   Permissions,
-} from 'librechat-data-provider';
-import type { TConfig, TInterfaceConfig } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
+import type { TConfig, TInterfaceConfig } from 'legallibrechat-data-provider';
 import type { NavLink } from '~/common';
 import PanelSwitch from '~/components/SidePanel/Builder/PanelSwitch';
 import PromptsAccordion from '~/components/Prompts/PromptsAccordion';

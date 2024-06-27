@@ -1,4 +1,4 @@
-import type { TFile, Assistant, TPlugin } from 'librechat-data-provider';
+import type { TFile, Assistant, TPlugin } from 'legallibrechat-data-provider';
 import type { TPluginMap } from '~/common';
 
 /** Maps Files by `file_id` for quick lookup */

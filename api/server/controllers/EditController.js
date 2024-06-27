@@ -1,5 +1,5 @@
 const throttle = require('lodash/throttle');
-const { getResponseSender, EModelEndpoint } = require('librechat-data-provider');
+const { getResponseSender, EModelEndpoint } = require('legallibrechat-data-provider');
 const { createAbortController, handleAbortError } = require('~/server/middleware');
 const { sendMessage, createOnProgress } = require('~/server/utils');
 const { saveMessage, getConvo } = require('~/models');

@@ -1,6 +1,6 @@
 import { ArrowUpDown } from 'lucide-react';
 import type { ColumnDef } from '@tanstack/react-table';
-import type { TFile } from 'librechat-data-provider';
+import type { TFile } from 'legallibrechat-data-provider';
 import PanelFileCell from './PanelFileCell';
 import { Button } from '~/components/ui';
 import { formatDate } from '~/utils';

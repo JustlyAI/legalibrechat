@@ -11,8 +11,8 @@ import {
   isAssistantsEndpoint,
   defaultAssistantsVersion,
   fileConfig as defaultFileConfig,
-} from 'librechat-data-provider';
-import type { TEndpointsConfig, TError } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
+import type { TEndpointsConfig, TError } from 'legallibrechat-data-provider';
 import type { ExtendedFile, FileSetter } from '~/common';
 import { useUploadFileMutation, useGetFileConfig } from '~/data-provider';
 import { useDelayedUploadToast } from './useDelayedUploadToast';

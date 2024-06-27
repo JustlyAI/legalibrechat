@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import TagManager from 'react-gtm-module';
 import { useRecoilState, useSetRecoilState } from 'recoil';
-import { LocalStorageKeys } from 'librechat-data-provider';
-import { useAvailablePluginsQuery } from 'librechat-data-provider/react-query';
-import type { TStartupConfig, TPlugin, TUser } from 'librechat-data-provider';
+import { LocalStorageKeys } from 'legallibrechat-data-provider';
+import { useAvailablePluginsQuery } from 'legallibrechat-data-provider/react-query';
+import type { TStartupConfig, TPlugin, TUser } from 'legallibrechat-data-provider';
 import { data as modelSpecs } from '~/components/Chat/Menus/Models/fakeData';
 import { mapPlugins, selectPlugins, processPlugins } from '~/utils';
 import useConfigOverride from './useConfigOverride';

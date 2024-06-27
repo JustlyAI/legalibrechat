@@ -1,13 +1,13 @@
 import throttle from 'lodash/throttle';
-import { getConfigDefaults } from 'librechat-data-provider';
+import { getConfigDefaults } from 'legallibrechat-data-provider';
 import { useState, useRef, useCallback, useEffect, useMemo, memo } from 'react';
 import {
   useGetEndpointsQuery,
   useGetStartupConfig,
   useUserKeyQuery,
-} from 'librechat-data-provider/react-query';
+} from 'legallibrechat-data-provider/react-query';
 import type { ImperativePanelHandle } from 'react-resizable-panels';
-import type { TEndpointsConfig } from 'librechat-data-provider';
+import type { TEndpointsConfig } from 'legallibrechat-data-provider';
 import { ResizableHandleAlt, ResizablePanel, ResizablePanelGroup } from '~/components/ui/Resizable';
 import { TooltipProvider, Tooltip } from '~/components/ui/Tooltip';
 import useSideNavLinks from '~/hooks/Nav/useSideNavLinks';

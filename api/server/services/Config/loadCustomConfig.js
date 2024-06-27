@@ -1,5 +1,5 @@
 const path = require('path');
-const { CacheKeys, configSchema, EImageOutputType } = require('librechat-data-provider');
+const { CacheKeys, configSchema, EImageOutputType } = require('legallibrechat-data-provider');
 const getLogStores = require('~/cache/getLogStores');
 const loadYaml = require('~/utils/loadYaml');
 const { logger } = require('~/config');
@@ -7,7 +7,7 @@ const axios = require('axios');
 const yaml = require('js-yaml');
 
 const projectRoot = path.resolve(__dirname, '..', '..', '..', '..');
-const defaultConfigPath = path.resolve(projectRoot, 'librechat.yaml');
+const defaultConfigPath = path.resolve(projectRoot, 'legallibrechat.yaml');
 
 let i = 0;
 

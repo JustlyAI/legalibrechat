@@ -1,5 +1,5 @@
-import { EModelEndpoint } from 'librechat-data-provider';
-import type { TAssistantsMap } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
+import type { TAssistantsMap } from 'legallibrechat-data-provider';
 import { useListAssistantsQuery } from '~/data-provider';
 import { mapAssistants } from '~/utils';
 

@@ -5,7 +5,7 @@ import {
   AuthTypeEnum,
   AuthorizationTypeEnum,
   TokenExchangeMethodEnum,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { DialogContent } from '~/components/ui/';
 
 export default function ActionsAuth({

@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import type { TMessage, TMessageContentParts } from 'librechat-data-provider';
+import type { TMessage, TMessageContentParts } from 'legallibrechat-data-provider';
 import { UnfinishedMessage } from './MessageContent';
 import { DelayedRender } from '~/components/ui';
 import MarkdownLite from './MarkdownLite';

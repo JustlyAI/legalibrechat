@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useForm, useFieldArray, Controller, useWatch } from 'react-hook-form';
-import type { TPromptGroup } from 'librechat-data-provider';
+import type { TPromptGroup } from 'legallibrechat-data-provider';
 import { extractVariableInfo, wrapVariable, replaceSpecialVars } from '~/utils';
 import { useAuthContext, useLocalize, useSubmitMessage } from '~/hooks';
 import { Input } from '~/components/ui';

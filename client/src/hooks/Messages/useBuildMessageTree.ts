@@ -1,5 +1,5 @@
 import { useRecoilCallback } from 'recoil';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import store from '~/store';
 
 export default function useBuildMessageTree() {

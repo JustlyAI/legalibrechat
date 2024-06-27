@@ -1,12 +1,12 @@
 import reactRouter from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
 import { render, waitFor } from 'test/layout-test-utils';
-import * as mockDataProvider from 'librechat-data-provider/react-query';
-import type { TStartupConfig } from 'librechat-data-provider';
+import * as mockDataProvider from 'legallibrechat-data-provider/react-query';
+import type { TStartupConfig } from 'legallibrechat-data-provider';
 import AuthLayout from '~/components/Auth/AuthLayout';
 import Login from '~/components/Auth/Login';
 
-jest.mock('librechat-data-provider/react-query');
+jest.mock('legallibrechat-data-provider/react-query');
 
 const mockStartupConfig = {
   isFetching: false,

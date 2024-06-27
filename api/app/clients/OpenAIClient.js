@@ -11,7 +11,7 @@ const {
   getResponseSender,
   validateVisionModel,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { encoding_for_model: encodingForModel, get_encoding: getEncoding } = require('tiktoken');
 const {
   extractBaseURL,

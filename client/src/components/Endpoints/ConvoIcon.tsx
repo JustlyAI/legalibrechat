@@ -1,10 +1,10 @@
-import { isAssistantsEndpoint } from 'librechat-data-provider';
+import { isAssistantsEndpoint } from 'legallibrechat-data-provider';
 import type {
   TAssistantsMap,
   TConversation,
   TEndpointsConfig,
   TPreset,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { getEndpointField, getIconKey, getIconEndpoint } from '~/utils';
 import { icons } from '~/components/Chat/Menus/Endpoints/Icons';
 import ConvoIconURL from '~/components/Endpoints/ConvoIconURL';

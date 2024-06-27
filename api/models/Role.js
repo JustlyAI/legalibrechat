@@ -1,4 +1,4 @@
-const { SystemRoles, CacheKeys, roleDefaults } = require('librechat-data-provider');
+const { SystemRoles, CacheKeys, roleDefaults } = require('legallibrechat-data-provider');
 const getLogStores = require('~/cache/getLogStores');
 const Role = require('~/models/schema/roleSchema');
 

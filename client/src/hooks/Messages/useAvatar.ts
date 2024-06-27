@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { createAvatar } from '@dicebear/core';
 import { initials } from '@dicebear/collection';
-import type { TUser } from 'librechat-data-provider';
+import type { TUser } from 'legallibrechat-data-provider';
 
 const useAvatar = (user: TUser | undefined) => {
   const [avatarSrc, setAvatarSrc] = useState('');

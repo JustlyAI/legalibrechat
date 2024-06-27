@@ -1,4 +1,4 @@
-import type { TPlugin } from 'librechat-data-provider';
+import type { TPlugin } from 'legallibrechat-data-provider';
 import GearIcon from '~/components/svg/GearIcon';
 import { cn } from '~/utils';
 

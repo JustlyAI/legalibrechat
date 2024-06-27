@@ -1,5 +1,5 @@
 import { atom, selector, atomFamily } from 'recoil';
-import { TConversation, TMessagesAtom, TMessage } from 'librechat-data-provider';
+import { TConversation, TMessagesAtom, TMessage } from 'legallibrechat-data-provider';
 import { buildTree } from '~/utils';
 
 const conversation = atom<TConversation | null>({

@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react';
 import { useFormContext, Controller, useWatch } from 'react-hook-form';
-import { Capabilities } from 'librechat-data-provider';
-import type { AssistantsEndpoint } from 'librechat-data-provider';
+import { Capabilities } from 'legallibrechat-data-provider';
+import type { AssistantsEndpoint } from 'legallibrechat-data-provider';
 import type { AssistantForm } from '~/common';
 import OptionHover from '~/components/SidePanel/Parameters/OptionHover';
 import { Checkbox, HoverCard, HoverCardTrigger } from '~/components/ui';

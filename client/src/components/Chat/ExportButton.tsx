@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useState } from 'react';
-import type { TConversation } from 'librechat-data-provider';
+import type { TConversation } from 'legallibrechat-data-provider';
 import { Upload } from 'lucide-react';
 import { useLocalize } from '~/hooks';
 import { ExportModal } from '../Nav';

@@ -3,14 +3,14 @@
     <img src="client/public/assets/legal-logo.png" height="256">
   </a>
   <h1 align="center">
-    <a href="https://legallibrechat.ai">LegalLibreChat - Legal AI built on the LibreChat open source project </a>
+    <a href="https://librechat.ai">librechat - Legal AI built on the LibreChat open source project </a>
   </h1>
 </p>
 
 <h2 align="center">List of Changes to LibreChat</h2>
 <ul align="left">
-  <li>Changed logo and favicons to LegalLibreChat.</li>
-  <li>Changed meilisearch API key.</li>
+  <li>Changed logo and favicons to librechat.</li>
+  <li>Generated new credentials (CREDS_KEY, CREDS_IV, JWT_SECRET, JWT_REFRESH_SECRET, MEILI_MASTER_KEY).</li>
 </ul>
 
 <hr>

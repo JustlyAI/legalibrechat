@@ -7,15 +7,15 @@ import {
   ContentTypes,
   parseCompactConvo,
   isAssistantsEndpoint,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useRecoilState, useResetRecoilState, useSetRecoilState } from 'recoil';
-import { useGetMessagesByConvoId } from 'librechat-data-provider/react-query';
+import { useGetMessagesByConvoId } from 'legallibrechat-data-provider/react-query';
 import type {
   TMessage,
   TSubmission,
   TEndpointOption,
   TEndpointsConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { TAskFunction } from '~/common';
 import useSetFilesToDelete from './Files/useSetFilesToDelete';
 import useGetSender from './Conversations/useGetSender';

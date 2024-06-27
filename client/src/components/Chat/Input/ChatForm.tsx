@@ -5,7 +5,7 @@ import {
   mergeFileConfig,
   isAssistantsEndpoint,
   fileConfig as defaultFileConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useChatContext, useAssistantsMapContext, useChatFormContext } from '~/Providers';
 import { useRequiresKey, useTextarea, useSubmitMessage, useHandleKeyUp } from '~/hooks';
 import { useAutoSave } from '~/hooks/Input/useAutoSave';

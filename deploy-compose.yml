@@ -5,8 +5,8 @@ services:
     #   context: .
     #   dockerfile: Dockerfile.multi
     #   target: api-build
-    image: ghcr.io/danny-avila/librechat-dev-api:latest
-    container_name: LibreChat-API
+    image: ghcr.io/justlyai/legallibrechat-dev-api:latest
+    container_name: legallibrechat-API
     ports:
       - 3080:3080
     depends_on:
@@ -20,14 +20,14 @@ services:
     environment:
       - HOST=0.0.0.0
       - NODE_ENV=production
-      - MONGO_URI=mongodb://mongodb:27017/LibreChat
+      - MONGO_URI=mongodb://mongodb:27017/legallibrechat
       - MEILI_HOST=http://meilisearch:7700
       - RAG_PORT=${RAG_PORT:-8000}
       - RAG_API_URL=http://rag_api:${RAG_PORT:-8000}
     volumes:
       - type: bind
-        source: ./librechat.yaml
-        target: /app/librechat.yaml
+        source: ./legallibrechat.yaml
+        target: /app/legallibrechat.yaml
       - ./images:/app/client/public/images
       - ./logs:/app/api/logs
   client:
@@ -35,7 +35,7 @@ services:
       context: .
       dockerfile: Dockerfile.multi
       target: prod-stage
-    container_name: LibreChat-NGINX
+    container_name: legallibrechat-NGINX
     ports:
       - 80:80
       - 443:443
@@ -76,7 +76,7 @@ services:
     volumes:
       - pgdata2:/var/lib/postgresql/data
   rag_api:
-    image: ghcr.io/danny-avila/librechat-rag-api-dev-lite:latest
+    image: ghcr.io/justlyai/legallibrechat-rag-api-dev-lite:latest
     environment:
       - DB_HOST=vectordb
       - RAG_PORT=${RAG_PORT:-8000}

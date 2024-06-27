@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { useQueryClient } from '@tanstack/react-query';
 import { useSetRecoilState, useResetRecoilState } from 'recoil';
-import { QueryKeys, EModelEndpoint, LocalStorageKeys } from 'librechat-data-provider';
-import type { TConversation, TEndpointsConfig, TModelsConfig } from 'librechat-data-provider';
+import { QueryKeys, EModelEndpoint, LocalStorageKeys } from 'legallibrechat-data-provider';
+import type { TConversation, TEndpointsConfig, TModelsConfig } from 'legallibrechat-data-provider';
 import { buildDefaultConvo, getDefaultEndpoint, getEndpointField } from '~/utils';
 import store from '~/store';
 

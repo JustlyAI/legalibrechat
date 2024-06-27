@@ -1,13 +1,13 @@
 import React, { useEffect, useMemo } from 'react';
 import { Share2Icon } from 'lucide-react';
 import { useForm, Controller } from 'react-hook-form';
-import { Permissions } from 'librechat-data-provider';
-import { useGetStartupConfig } from 'librechat-data-provider/react-query';
+import { Permissions } from 'legallibrechat-data-provider';
+import { useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
 import type {
   TPromptGroup,
   TStartupConfig,
   TUpdatePromptGroupPayload,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import {
   OGDialog,
   OGDialogTitle,

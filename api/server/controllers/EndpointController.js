@@ -1,4 +1,4 @@
-const { CacheKeys, EModelEndpoint, orderEndpointsConfig } = require('librechat-data-provider');
+const { CacheKeys, EModelEndpoint, orderEndpointsConfig } = require('legallibrechat-data-provider');
 const { loadDefaultEndpointsConfig, loadConfigEndpoints } = require('~/server/services/Config');
 const { getLogStores } = require('~/cache');
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const throttle = require('lodash/throttle');
-const { getResponseSender, Constants } = require('librechat-data-provider');
+const { getResponseSender, Constants } = require('legallibrechat-data-provider');
 const { initializeClient } = require('~/server/services/Endpoints/gptPlugins');
 const { saveMessage, getConvoTitle, getConvo } = require('~/models');
 const { sendMessage, createOnProgress } = require('~/server/utils');

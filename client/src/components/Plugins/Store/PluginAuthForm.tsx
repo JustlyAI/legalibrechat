@@ -1,4 +1,4 @@
-import { TPlugin, TPluginAuthConfig, TPluginAction } from 'librechat-data-provider';
+import { TPlugin, TPluginAuthConfig, TPluginAction } from 'legallibrechat-data-provider';
 import { Save } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { HoverCard, HoverCardTrigger } from '~/components/ui';

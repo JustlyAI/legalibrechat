@@ -1,7 +1,7 @@
 const fs = require('fs');
 const axios = require('axios');
 const FormData = require('form-data');
-const { FileSources } = require('librechat-data-provider');
+const { FileSources } = require('legallibrechat-data-provider');
 const { logger } = require('~/config');
 
 /**

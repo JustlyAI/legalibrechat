@@ -1,8 +1,8 @@
 import { useForm } from 'react-hook-form';
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useOutletContext } from 'react-router-dom';
-import { useRegisterUserMutation } from 'librechat-data-provider/react-query';
-import type { TRegisterUser, TError } from 'librechat-data-provider';
+import { useRegisterUserMutation } from 'legallibrechat-data-provider/react-query';
+import type { TRegisterUser, TError } from 'legallibrechat-data-provider';
 import type { TLoginLayoutContext } from '~/common';
 import { ErrorMessage } from './ErrorMessage';
 import { useLocalize } from '~/hooks';

@@ -1,6 +1,6 @@
 import { useRecoilValue } from 'recoil';
-import { SettingsViews } from 'librechat-data-provider';
-import { useGetModelsQuery } from 'librechat-data-provider/react-query';
+import { SettingsViews } from 'legallibrechat-data-provider';
+import { useGetModelsQuery } from 'legallibrechat-data-provider/react-query';
 import type { TSettingsProps } from '~/common';
 import { getSettings } from './Settings';
 import { cn } from '~/utils';

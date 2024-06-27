@@ -2,7 +2,7 @@ import { memo } from 'react';
 import { useRecoilValue } from 'recoil';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router-dom';
-import { useGetMessagesByConvoId } from 'librechat-data-provider/react-query';
+import { useGetMessagesByConvoId } from 'legallibrechat-data-provider/react-query';
 import type { ChatFormValues } from '~/common';
 import { ChatContext, useFileMapContext, ChatFormProvider } from '~/Providers';
 import MessagesView from './Messages/MessagesView';

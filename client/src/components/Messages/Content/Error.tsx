@@ -1,6 +1,6 @@
 // file deepcode ignore HardcodedNonCryptoSecret: No hardcoded secrets
-import { ViolationTypes, ErrorTypes } from 'librechat-data-provider';
-import type { TOpenAIMessage } from 'librechat-data-provider';
+import { ViolationTypes, ErrorTypes } from 'legallibrechat-data-provider';
+import type { TOpenAIMessage } from 'legallibrechat-data-provider';
 import type { LocalizeFunction } from '~/common';
 import { formatJSON, extractJson, isJson } from '~/utils/json';
 import useLocalize from '~/hooks/useLocalize';

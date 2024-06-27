@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { Close } from '@radix-ui/react-popover';
-import { AuthType } from 'librechat-data-provider';
-import type { TModelSpec, TEndpointsConfig } from 'librechat-data-provider';
+import { AuthType } from 'legallibrechat-data-provider';
+import type { TModelSpec, TEndpointsConfig } from 'legallibrechat-data-provider';
 import MenuSeparator from '~/components/Chat/Menus/UI/MenuSeparator';
 import ModelSpec from './ModelSpec';
 

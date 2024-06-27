@@ -1,4 +1,4 @@
-const { EModelEndpoint, ErrorTypes, validateAzureGroups } = require('librechat-data-provider');
+const { EModelEndpoint, ErrorTypes, validateAzureGroups } = require('legallibrechat-data-provider');
 const { getUserKey, getUserKeyValues } = require('~/server/services/UserService');
 const initializeClient = require('./initializeClient');
 const { OpenAIClient } = require('~/app');

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useNavigate, useLocation } from 'react-router-dom';
-import { useGetStartupConfig } from 'librechat-data-provider/react-query';
-import type { TStartupConfig } from 'librechat-data-provider';
+import { useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
+import type { TStartupConfig } from 'legallibrechat-data-provider';
 import AuthLayout from '~/components/Auth/AuthLayout';
 import { useLocalize } from '~/hooks';
 
@@ -37,7 +37,7 @@ export default function StartupLayout({ isAuthenticated }: { isAuthenticated?: b
   }, [isAuthenticated, navigate, data]);
 
   useEffect(() => {
-    document.title = startupConfig?.appTitle || 'LibreChat';
+    document.title = startupConfig?.appTitle || 'librechat';
   }, [startupConfig?.appTitle]);
 
   useEffect(() => {

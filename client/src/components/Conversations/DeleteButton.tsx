@@ -1,8 +1,8 @@
 import { useCallback } from 'react';
-import { QueryKeys } from 'librechat-data-provider';
+import { QueryKeys } from 'legallibrechat-data-provider';
 import { useQueryClient } from '@tanstack/react-query';
 import { useParams, useNavigate } from 'react-router-dom';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import { useDeleteConversationMutation } from '~/data-provider';
 import {
   Dialog,

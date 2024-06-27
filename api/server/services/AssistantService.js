@@ -8,7 +8,7 @@ const {
   imageGenTools,
   EModelEndpoint,
   defaultOrderQuery,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { retrieveAndProcessFile } = require('~/server/services/Files/process');
 const { processRequiredActions } = require('~/server/services/ToolService');
 const { createOnProgress, sendMessage, sleep } = require('~/server/utils');

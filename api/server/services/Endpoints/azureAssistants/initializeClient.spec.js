@@ -1,6 +1,6 @@
 // const OpenAI = require('openai');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const { ErrorTypes } = require('librechat-data-provider');
+const { ErrorTypes } = require('legallibrechat-data-provider');
 const { getUserKey, getUserKeyExpiry, getUserKeyValues } = require('~/server/services/UserService');
 const initializeClient = require('./initializeClient');
 // const { OpenAIClient } = require('~/app');

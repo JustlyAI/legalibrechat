@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRecoilState } from 'recoil';
 import * as Tabs from '@radix-ui/react-tabs';
-import { SettingsTabValues } from 'librechat-data-provider';
+import { SettingsTabValues } from 'legallibrechat-data-provider';
 import HoverCardSettings from '../HoverCardSettings';
 import DeleteAccount from './DeleteAccount';
 import { Switch } from '~/components/ui';

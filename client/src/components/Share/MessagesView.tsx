@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import MultiMessage from './MultiMessage';
 
 export default function MessagesView({

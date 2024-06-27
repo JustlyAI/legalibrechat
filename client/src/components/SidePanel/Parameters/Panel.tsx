@@ -1,9 +1,9 @@
-import { ComponentTypes } from 'librechat-data-provider';
+import { ComponentTypes } from 'legallibrechat-data-provider';
 import type {
   DynamicSettingProps,
   SettingDefinition,
   SettingsConfiguration,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useSetIndexOptions } from '~/hooks';
 import { useChatContext } from '~/Providers';
 import {

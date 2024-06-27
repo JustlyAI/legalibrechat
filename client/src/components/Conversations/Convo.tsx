@@ -1,7 +1,7 @@
 import { useRecoilValue } from 'recoil';
 import { useParams } from 'react-router-dom';
 import { useState, useRef, useMemo } from 'react';
-import { useGetEndpointsQuery, useGetStartupConfig } from 'librechat-data-provider/react-query';
+import { useGetEndpointsQuery, useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
 import type { MouseEvent, FocusEvent, KeyboardEvent } from 'react';
 import { useUpdateConversationMutation } from '~/data-provider';
 import EndpointIcon from '~/components/Endpoints/EndpointIcon';

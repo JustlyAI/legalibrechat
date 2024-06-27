@@ -5,9 +5,9 @@ import {
   mergeFileConfig,
   megabyte,
   isAssistantsEndpoint,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { Row } from '@tanstack/react-table';
-import type { TFile } from 'librechat-data-provider';
+import type { TFile } from 'legallibrechat-data-provider';
 import { useFileMapContext, useChatContext, useToastContext } from '~/Providers';
 import ImagePreview from '~/components/Chat/Input/Files/ImagePreview';
 import FilePreview from '~/components/Chat/Input/Files/FilePreview';

@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 const express = require('express');
-const { isUUID, checkOpenAIStorage } = require('librechat-data-provider');
+const { isUUID, checkOpenAIStorage } = require('legallibrechat-data-provider');
 const {
   filterFile,
   processFileUpload,

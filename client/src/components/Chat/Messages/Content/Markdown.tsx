@@ -7,7 +7,7 @@ import rehypeKatex from 'rehype-katex';
 import { useRecoilValue } from 'recoil';
 import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import type { PluggableList } from 'unified';
 import { cn, langSubset, validateIframe, processLaTeX } from '~/utils';
 import CodeBlock from '~/components/Messages/Content/CodeBlock';

@@ -3,9 +3,9 @@ import exportFromJSON from 'export-from-json';
 import { useCallback, useEffect, useRef } from 'react';
 import { useQueryClient } from '@tanstack/react-query';
 import { useRecoilState, useSetRecoilState, useRecoilValue } from 'recoil';
-import { QueryKeys, modularEndpoints, isAssistantsEndpoint } from 'librechat-data-provider';
-import { useCreatePresetMutation, useGetModelsQuery } from 'librechat-data-provider/react-query';
-import type { TPreset, TEndpointsConfig } from 'librechat-data-provider';
+import { QueryKeys, modularEndpoints, isAssistantsEndpoint } from 'legallibrechat-data-provider';
+import { useCreatePresetMutation, useGetModelsQuery } from 'legallibrechat-data-provider/react-query';
+import type { TPreset, TEndpointsConfig } from 'legallibrechat-data-provider';
 import {
   useUpdatePresetMutation,
   useDeletePresetMutation,

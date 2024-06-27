@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import * as Tabs from '@radix-ui/react-tabs';
-import { SettingsTabValues } from 'librechat-data-provider';
+import { SettingsTabValues } from 'legallibrechat-data-provider';
 import LaTeXParsing from './LaTeXParsing';
 import ModularChat from './ModularChat';
 

@@ -1,4 +1,4 @@
-import type { TFile } from 'librechat-data-provider';
+import type { TFile } from 'legallibrechat-data-provider';
 import type { ExtendedFile } from '~/common';
 import FilePreview from './FilePreview';
 import RemoveFile from './RemoveFile';

@@ -1,5 +1,5 @@
-import { parseConvo, EModelEndpoint, isAssistantsEndpoint } from 'librechat-data-provider';
-import type { TConversation } from 'librechat-data-provider';
+import { parseConvo, EModelEndpoint, isAssistantsEndpoint } from 'legallibrechat-data-provider';
+import type { TConversation } from 'legallibrechat-data-provider';
 import getLocalStorageItems from './getLocalStorageItems';
 
 const buildDefaultConvo = ({

@@ -1,5 +1,5 @@
 import * as Tabs from '@radix-ui/react-tabs';
-import { SettingsTabValues } from 'librechat-data-provider';
+import { SettingsTabValues } from 'legallibrechat-data-provider';
 import React, { useState, useRef } from 'react';
 import { useRecoilState } from 'recoil';
 import { Lightbulb, Cog } from 'lucide-react';

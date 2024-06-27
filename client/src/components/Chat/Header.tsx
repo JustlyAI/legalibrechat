@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { getConfigDefaults } from 'librechat-data-provider';
-import { useGetStartupConfig } from 'librechat-data-provider/react-query';
+import { getConfigDefaults } from 'legallibrechat-data-provider';
+import { useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
 import type { ContextType } from '~/common';
 import { EndpointsMenu, ModelSpecsMenu, PresetsMenu, HeaderNewChat } from './Menus';
 import ExportAndShareMenu from './ExportAndShareMenu';

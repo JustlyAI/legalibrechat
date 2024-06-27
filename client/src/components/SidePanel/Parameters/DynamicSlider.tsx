@@ -1,6 +1,6 @@
 import { useMemo, useCallback } from 'react';
-import { OptionTypes } from 'librechat-data-provider';
-import type { DynamicSettingProps } from 'librechat-data-provider';
+import { OptionTypes } from 'legallibrechat-data-provider';
+import type { DynamicSettingProps } from 'legallibrechat-data-provider';
 import { Label, Slider, HoverCard, Input, InputNumber, HoverCardTrigger } from '~/components/ui';
 import { useLocalize, useDebouncedInput, useParameterEffects } from '~/hooks';
 import { cn, defaultTextProps, optionText } from '~/utils';

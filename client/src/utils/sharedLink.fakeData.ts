@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-import type { SharedLinkListData } from 'librechat-data-provider';
+import type { SharedLinkListData } from 'legallibrechat-data-provider';
 
 const today = new Date();
 today.setDate(today.getDate() - 3);

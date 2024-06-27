@@ -1,5 +1,5 @@
-import { FileSources, FileContext } from 'librechat-data-provider';
-import type { TFile } from 'librechat-data-provider';
+import { FileSources, FileContext } from 'legallibrechat-data-provider';
+import type { TFile } from 'legallibrechat-data-provider';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '~/components/ui';
 import { useGetFiles } from '~/data-provider';
 import { DataTable, columns } from './Table';

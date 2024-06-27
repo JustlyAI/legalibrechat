@@ -1,8 +1,8 @@
 import { FileImage } from 'lucide-react';
 import { useSetRecoilState } from 'recoil';
 import { useState, useEffect } from 'react';
-import { fileConfig as defaultFileConfig, mergeFileConfig } from 'librechat-data-provider';
-import type { TUser } from 'librechat-data-provider';
+import { fileConfig as defaultFileConfig, mergeFileConfig } from 'legallibrechat-data-provider';
+import type { TUser } from 'legallibrechat-data-provider';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '~/components/ui';
 import { useUploadAvatarMutation, useGetFileConfig } from '~/data-provider';
 import { useToastContext } from '~/Providers';

@@ -4,14 +4,14 @@ import {
   modularEndpoints,
   LocalStorageKeys,
   isAssistantsEndpoint,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type {
   TConfig,
   TPreset,
   TModelSpec,
   TConversation,
   TEndpointsConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { LocalizeFunction } from '~/common';
 
 export const getAssistantName = ({

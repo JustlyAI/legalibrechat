@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import TextareaAutosize from 'react-textarea-autosize';
-import { useUpdateTokenCountMutation } from 'librechat-data-provider/react-query';
-import type { TUpdateTokenCountResponse } from 'librechat-data-provider';
+import { useUpdateTokenCountMutation } from 'legallibrechat-data-provider/react-query';
+import type { TUpdateTokenCountResponse } from 'legallibrechat-data-provider';
 import { Label, Checkbox, SelectDropDown } from '~/components/ui';
 import { cn, defaultTextProps, removeFocusRings } from '~/utils';
 import { useLocalize, useDebounce } from '~/hooks';

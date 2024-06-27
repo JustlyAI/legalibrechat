@@ -1,5 +1,5 @@
 const { promises: fs } = require('fs');
-const { CacheKeys } = require('librechat-data-provider');
+const { CacheKeys } = require('legallibrechat-data-provider');
 const { addOpenAPISpecs } = require('~/app/clients/tools/util/addOpenAPISpecs');
 const { getLogStores } = require('~/cache');
 

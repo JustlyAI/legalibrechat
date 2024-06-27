@@ -2,11 +2,11 @@ const {
   EModelEndpoint,
   validateAzureGroups,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { logger } = require('~/config');
 
 /**
- * Sets up the Azure OpenAI configuration from the config (`librechat.yaml`) file.
+ * Sets up the Azure OpenAI configuration from the config (`legallibrechat.yaml`) file.
  * @param {TCustomConfig} config - The loaded custom configuration.
  * @returns {TAzureConfig} The Azure OpenAI configuration.
  */

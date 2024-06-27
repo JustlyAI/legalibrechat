@@ -1,7 +1,7 @@
 import TextareaAutosize from 'react-textarea-autosize';
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { useUpdateMessageMutation } from 'librechat-data-provider/react-query';
+import { useUpdateMessageMutation } from 'legallibrechat-data-provider/react-query';
 import type { TEditProps } from '~/common';
 import { cn, removeFocusRings } from '~/utils';
 import { useChatContext } from '~/Providers';

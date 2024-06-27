@@ -3,7 +3,7 @@ import type {
   TPreset,
   TEndpointsConfig,
   EModelEndpoint,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import getLocalStorageItems from './getLocalStorageItems';
 import { mapEndpoints } from './endpoints';
 

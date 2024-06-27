@@ -4,8 +4,8 @@ import { useRecoilValue } from 'recoil';
 import { useForm, FormProvider } from 'react-hook-form';
 import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { useNavigate, useParams, useOutletContext } from 'react-router-dom';
-import { PermissionTypes, Permissions, SystemRoles } from 'librechat-data-provider';
-import type { TCreatePrompt } from 'librechat-data-provider';
+import { PermissionTypes, Permissions, SystemRoles } from 'legallibrechat-data-provider';
+import type { TCreatePrompt } from 'legallibrechat-data-provider';
 import {
   useGetPrompts,
   useCreatePrompt,

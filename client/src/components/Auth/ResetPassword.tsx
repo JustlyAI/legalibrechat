@@ -1,8 +1,8 @@
 import { useForm } from 'react-hook-form';
 import { useOutletContext } from 'react-router-dom';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { useResetPasswordMutation } from 'librechat-data-provider/react-query';
-import type { TResetPassword } from 'librechat-data-provider';
+import { useResetPasswordMutation } from 'legallibrechat-data-provider/react-query';
+import type { TResetPassword } from 'legallibrechat-data-provider';
 import type { TLoginLayoutContext } from '~/common';
 import { useLocalize } from '~/hooks';
 

@@ -1,5 +1,5 @@
 {
-  "name": "librechat-data-provider",
+  "name": "legallibrechat-data-provider",
   "version": "0.7.0",
   "description": "data services for librechat apps",
   "main": "dist/index.js",
@@ -30,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/justlyai/legallibrechat.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/justlyai/LegalLibreChat/issues"
   },
   "homepage": "https://librechat.ai",
   "dependencies": {

@@ -8,10 +8,10 @@ import {
   LocalStorageKeys,
   isImageVisionTool,
   defaultAssistantFormValues,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { UseFormReset } from 'react-hook-form';
 import type { UseMutationResult } from '@tanstack/react-query';
-import type { Assistant, AssistantCreateParams, AssistantsEndpoint } from 'librechat-data-provider';
+import type { Assistant, AssistantCreateParams, AssistantsEndpoint } from 'legallibrechat-data-provider';
 import type {
   Actions,
   ExtendedFile,

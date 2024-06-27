@@ -1,8 +1,8 @@
 import { useRecoilValue } from 'recoil';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { dataService, QueryKeys } from 'librechat-data-provider';
+import { dataService, QueryKeys } from 'legallibrechat-data-provider';
 import type { UseMutationResult } from '@tanstack/react-query';
-import type t from 'librechat-data-provider';
+import type t from 'legallibrechat-data-provider';
 import {
   /* Prompts */
   addPromptGroup,

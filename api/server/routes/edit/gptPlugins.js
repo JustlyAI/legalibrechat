@@ -1,6 +1,6 @@
 const express = require('express');
 const throttle = require('lodash/throttle');
-const { getResponseSender } = require('librechat-data-provider');
+const { getResponseSender } = require('legallibrechat-data-provider');
 const {
   handleAbort,
   createAbortController,

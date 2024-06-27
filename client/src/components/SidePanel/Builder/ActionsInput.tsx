@@ -5,14 +5,14 @@ import {
   validateAndParseOpenAPISpec,
   openapiToFunction,
   AuthTypeEnum,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type {
   Action,
   FunctionTool,
   ActionMetadata,
   ValidationResult,
   AssistantsEndpoint,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { ActionAuthForm } from '~/common';
 import type { Spec } from './ActionsTable';
 import { useAssistantsMapContext, useToastContext } from '~/Providers';

@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const { EModelEndpoint, Constants, openAISettings } = require('librechat-data-provider');
+const { EModelEndpoint, Constants, openAISettings } = require('legallibrechat-data-provider');
 const { bulkSaveConvos } = require('~/models/Conversation');
 const { bulkSaveMessages } = require('~/models/Message');
 const { logger } = require('~/config');

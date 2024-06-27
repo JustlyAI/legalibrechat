@@ -8,13 +8,13 @@ import {
   ToolCallTypes,
   imageGenTools,
   isImageVisionTool,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type {
   TMessage,
   TPreset,
   TConversation,
   TMessageContentParts,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import useBuildMessageTree from '~/hooks/Messages/useBuildMessageTree';
 import { useScreenshot } from '~/hooks/ScreenshotContext';
 import { cleanupPreset, buildTree } from '~/utils';

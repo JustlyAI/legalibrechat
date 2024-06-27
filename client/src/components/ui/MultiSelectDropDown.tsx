@@ -5,7 +5,7 @@ import { CheckMark } from '~/components/svg';
 import useOnClickOutside from '~/hooks/useOnClickOutside';
 import { useMultiSearch } from './MultiSearch';
 import { cn } from '~/utils/';
-import type { TPlugin } from 'librechat-data-provider';
+import type { TPlugin } from 'legallibrechat-data-provider';
 
 export type TMultiSelectDropDownProps = {
   title?: string;

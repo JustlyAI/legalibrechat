@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useForm, Controller, FormProvider } from 'react-hook-form';
-import { LocalStorageKeys, PermissionTypes, Permissions } from 'librechat-data-provider';
+import { LocalStorageKeys, PermissionTypes, Permissions } from 'legallibrechat-data-provider';
 import CategorySelector from '~/components/Prompts/Groups/CategorySelector';
 import PromptVariables from '~/components/Prompts/PromptVariables';
 import { Button, TextareaAutosize, Input } from '~/components/ui';

@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import TextareaAutosize from 'react-textarea-autosize';
-import type { Assistant, TPreset } from 'librechat-data-provider';
+import type { Assistant, TPreset } from 'legallibrechat-data-provider';
 import type { TModelSelectProps, Option } from '~/common';
 import { Label, HoverCard, SelectDropDown, HoverCardTrigger } from '~/components/ui';
 import { cn, defaultTextProps, removeFocusRings, mapAssistants } from '~/utils';

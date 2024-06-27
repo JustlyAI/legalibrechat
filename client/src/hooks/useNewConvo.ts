@@ -3,9 +3,9 @@ import {
   useGetModelsQuery,
   useGetStartupConfig,
   useGetEndpointsQuery,
-} from 'librechat-data-provider/react-query';
+} from 'legallibrechat-data-provider/react-query';
 import { useNavigate } from 'react-router-dom';
-import { FileSources, LocalStorageKeys, isAssistantsEndpoint } from 'librechat-data-provider';
+import { FileSources, LocalStorageKeys, isAssistantsEndpoint } from 'legallibrechat-data-provider';
 import {
   useRecoilState,
   useRecoilValue,
@@ -19,7 +19,7 @@ import type {
   TModelsConfig,
   TConversation,
   TEndpointsConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { AssistantListItem } from '~/common';
 import {
   getEndpointField,

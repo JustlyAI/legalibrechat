@@ -1,5 +1,5 @@
 import { Fragment, Suspense } from 'react';
-import type { TMessage, TResPlugin } from 'librechat-data-provider';
+import type { TMessage, TResPlugin } from 'legallibrechat-data-provider';
 import type { TMessageContentProps, TDisplayProps } from '~/common';
 import Plugin from '~/components/Messages/Content/Plugin';
 import Error from '~/components/Messages/Content/Error';

@@ -11,7 +11,7 @@ const {
   ImageVisionTool,
   openapiToFunction,
   validateAndParseOpenAPISpec,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { processFileURL, uploadImageBuffer } = require('~/server/services/Files/process');
 const { loadActionSets, createActionTool, domainParser } = require('./ActionService');
 const { recordUsage } = require('~/server/services/Threads');

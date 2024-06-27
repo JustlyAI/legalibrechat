@@ -1,4 +1,4 @@
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('legallibrechat-data-provider');
 const { getModelMaxTokens, matchModelName, maxTokensMap } = require('./tokens');
 
 describe('getModelMaxTokens', () => {

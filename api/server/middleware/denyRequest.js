@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { getResponseSender, Constants } = require('librechat-data-provider');
+const { getResponseSender, Constants } = require('legallibrechat-data-provider');
 const { sendMessage, sendError } = require('~/server/utils');
 const { saveMessage } = require('~/models');
 

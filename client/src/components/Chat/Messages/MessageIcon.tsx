@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
-import type { TMessage, TPreset, Assistant } from 'librechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
+import type { TMessage, TPreset, Assistant } from 'legallibrechat-data-provider';
 import type { TMessageProps } from '~/common';
 import ConvoIconURL from '~/components/Endpoints/ConvoIconURL';
 import { getEndpointField, getIconEndpoint } from '~/utils';

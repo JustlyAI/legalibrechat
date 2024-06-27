@@ -7,8 +7,8 @@ import {
   useSetRecoilState,
   useRecoilCallback,
 } from 'recoil';
-import { LocalStorageKeys } from 'librechat-data-provider';
-import type { TMessage, TPreset, TConversation, TSubmission } from 'librechat-data-provider';
+import { LocalStorageKeys } from 'legallibrechat-data-provider';
+import type { TMessage, TPreset, TConversation, TSubmission } from 'legallibrechat-data-provider';
 import type { TOptionSettings, ExtendedFile } from '~/common';
 import { storeEndpointSettings } from '~/utils';
 import { useEffect } from 'react';

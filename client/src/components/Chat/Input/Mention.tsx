@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
 import type { SetterOrUpdater } from 'recoil';
 import type { MentionOption } from '~/common';
 import useSelectMention from '~/hooks/Input/useSelectMention';

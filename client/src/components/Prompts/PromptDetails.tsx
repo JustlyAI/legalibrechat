@@ -1,4 +1,4 @@
-import type { TPromptGroup } from 'librechat-data-provider';
+import type { TPromptGroup } from 'legallibrechat-data-provider';
 import CategoryIcon from './Groups/CategoryIcon';
 import PromptVariables from './PromptVariables';
 import Description from './Description';

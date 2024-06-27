@@ -1,4 +1,4 @@
-import type { Action } from 'librechat-data-provider';
+import type { Action } from 'legallibrechat-data-provider';
 import GearIcon from '~/components/svg/GearIcon';
 
 export default function AssistantAction({

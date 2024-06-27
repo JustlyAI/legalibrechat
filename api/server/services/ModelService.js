@@ -1,6 +1,6 @@
 const axios = require('axios');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const { EModelEndpoint, defaultModels, CacheKeys } = require('librechat-data-provider');
+const { EModelEndpoint, defaultModels, CacheKeys } = require('legallibrechat-data-provider');
 const { extractBaseURL, inputSchema, processModelData, logAxiosError } = require('~/utils');
 const { OllamaClient } = require('~/app/clients/OllamaClient');
 const getLogStores = require('~/cache/getLogStores');

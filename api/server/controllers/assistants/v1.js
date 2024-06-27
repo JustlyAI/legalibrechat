@@ -1,4 +1,4 @@
-const { FileContext } = require('librechat-data-provider');
+const { FileContext } = require('legallibrechat-data-provider');
 const validateAuthor = require('~/server/middleware/assistants/validateAuthor');
 const { getStrategyFunctions } = require('~/server/services/Files/strategies');
 const { deleteAssistantActions } = require('~/server/services/ActionService');

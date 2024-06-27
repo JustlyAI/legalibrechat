@@ -1,4 +1,4 @@
-import { EModelEndpoint, isAssistantsEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint, isAssistantsEndpoint } from 'legallibrechat-data-provider';
 import UnknownIcon from '~/components/Chat/Menus/Endpoints/UnknownIcon';
 import {
   Plugin,

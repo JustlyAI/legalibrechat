@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileSources, SystemRoles } from 'librechat-data-provider';
+import { FileSources, SystemRoles } from 'legallibrechat-data-provider';
 import type * as InputNumberPrimitive from 'rc-input-number';
 import type { ColumnDef } from '@tanstack/react-table';
 import type { SetterOrUpdater } from 'recoil';
@@ -20,7 +20,7 @@ import type {
   AuthorizationTypeEnum,
   TSetOption as SetOption,
   TokenExchangeMethodEnum,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { UseMutationResult } from '@tanstack/react-query';
 import type { LucideIcon } from 'lucide-react';
 

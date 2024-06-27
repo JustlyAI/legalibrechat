@@ -57,7 +57,7 @@ jobs:
       - name: Run unit tests
         run: cd api && npm run test:ci
 
-      - name: Run librechat-data-provider unit tests
+      - name: Run legallibrechat-data-provider unit tests
         run: cd packages/data-provider && npm run test:ci
 
       - name: Run linters

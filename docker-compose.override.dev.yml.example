@@ -1,0 +1,66 @@
+version: '3.4'
+
+services:
+  api:
+    image: librechat-dev:latest
+    container_name: librechat-Dev
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile.dev
+    environment:
+      - APP_TITLE=librechat-Dev
+      - MONGO_URI=mongodb://mongodb:27017/legallibrechatDev
+      - DATABASE_API_KEY=${DATABASE_API_KEY}
+      - DEBUG=true
+    volumes:
+      - type: bind
+        source: ./librechat.dev.yaml
+        target: /app/legallibrechat.yaml
+      - ./src:/app/src  # For live reloading
+
+  mongodb:
+    container_name: chat-mongodb-dev
+    ports:
+      - "27017:27017"  # Expose port for local development
+    environment:
+      - MONGO_INITDB_DATABASE=librechatDev
+
+  meilisearch:
+    container_name: chat-meilisearch-dev
+    ports:
+      - "7700:7700"  # Expose port for local development
+    environment:
+      - MEILI_MASTER_KEY=${MEILI_MASTER_KEY_DEV}
+
+  vectordb:
+    container_name: vectordb-dev
+    ports:
+      - "5432:5432"  # Expose port for local development
+    environment:
+      POSTGRES_DB: database_dev
+      POSTGRES_USER: ${DB_USER_DEV}
+      POSTGRES_PASSWORD: ${DB_PASSWORD_DEV}
+
+  # rag_api:
+  #   image: librechat-rag-api-dev:latest
+  #   container_name: rag_api_dev
+  #   build:
+  #     context: ./rag_api
+  #     dockerfile: Dockerfile.dev
+  #   environment:
+  #     - RAG_API_KEY=${RAG_API_KEY_DEV}
+  #     - DEBUG=true
+
+  # legal_dms:
+  #   image: your-legal-dms-image:dev
+  #   container_name: legal-dms-dev
+  #   environment:
+  #     - DMS_API_KEY=${DMS_API_KEY_DEV}
+  #   ports:
+  #     - "8082:8082"
+  #   volumes:
+  #     - ./legal_documents_dev:/app/documents
+
+volumes:
+  pgdata_dev:
+    name: pgdata_dev

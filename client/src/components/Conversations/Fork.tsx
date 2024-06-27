@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { useRecoilState } from 'recoil';
 import { GitFork, InfoIcon } from 'lucide-react';
 import * as Popover from '@radix-ui/react-popover';
-import { ForkOptions, TMessage } from 'librechat-data-provider';
+import { ForkOptions, TMessage } from 'legallibrechat-data-provider';
 import { GitCommit, GitBranchPlus, ListTree } from 'lucide-react';
 import {
   Checkbox,

@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
-import { defaultAssistantsVersion } from 'librechat-data-provider';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
-import type { Action, AssistantsEndpoint, TEndpointsConfig } from 'librechat-data-provider';
+import { defaultAssistantsVersion } from 'legallibrechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
+import type { Action, AssistantsEndpoint, TEndpointsConfig } from 'legallibrechat-data-provider';
 import { useGetActionsQuery } from '~/data-provider';
 import AssistantPanel from './AssistantPanel';
 import { useChatContext } from '~/Providers';

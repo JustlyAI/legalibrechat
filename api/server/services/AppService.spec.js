@@ -6,7 +6,7 @@ const {
   validateAzureGroups,
   deprecatedAzureVariables,
   conflictingAzureVariables,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 
 const AppService = require('./AppService');
 

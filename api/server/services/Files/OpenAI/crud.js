@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { FilePurpose } = require('librechat-data-provider');
+const { FilePurpose } = require('legallibrechat-data-provider');
 const { sleep } = require('~/server/utils');
 const { logger } = require('~/config');
 

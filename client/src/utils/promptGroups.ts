@@ -1,9 +1,9 @@
-import { InfiniteCollections } from 'librechat-data-provider';
+import { InfiniteCollections } from 'legallibrechat-data-provider';
 import type {
   PromptGroupListResponse,
   PromptGroupListData,
   TPromptGroup,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { addData, deleteData, updateData, updateFields, getRecordByProperty } from './collection';
 import { InfiniteData } from '@tanstack/react-query';
 

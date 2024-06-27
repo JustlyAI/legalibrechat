@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import type { DynamicSettingProps, TConversation, TPreset } from 'librechat-data-provider';
+import type { DynamicSettingProps, TConversation, TPreset } from 'legallibrechat-data-provider';
 import { defaultDebouncedDelay } from '~/common';
 
 function useParameterEffects<T = unknown>({

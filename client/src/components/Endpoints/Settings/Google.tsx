@@ -1,5 +1,5 @@
 import TextareaAutosize from 'react-textarea-autosize';
-import { EModelEndpoint, endpointSettings } from 'librechat-data-provider';
+import { EModelEndpoint, endpointSettings } from 'legallibrechat-data-provider';
 import type { TModelSelectProps, OnInputNumberChange } from '~/common';
 import {
   Input,

@@ -2,7 +2,7 @@ import { useLocalize } from '~/hooks';
 
 import { useCreateSharedLinkMutation } from '~/data-provider';
 import { useEffect, useState } from 'react';
-import { TSharedLink } from 'librechat-data-provider';
+import { TSharedLink } from 'legallibrechat-data-provider';
 import { useToastContext } from '~/Providers';
 import { NotificationSeverity } from '~/common';
 import { Spinner } from '~/components/svg';

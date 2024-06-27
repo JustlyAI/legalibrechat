@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
-import { OptionTypes } from 'librechat-data-provider';
-import type { DynamicSettingProps } from 'librechat-data-provider';
+import { OptionTypes } from 'legallibrechat-data-provider';
+import type { DynamicSettingProps } from 'legallibrechat-data-provider';
 import { Label, Switch, HoverCard, HoverCardTrigger } from '~/components/ui';
 import { useLocalize, useParameterEffects } from '~/hooks';
 import { useChatContext } from '~/Providers';

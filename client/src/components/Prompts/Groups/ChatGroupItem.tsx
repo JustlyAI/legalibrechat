@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Menu as MenuIcon, Edit as EditIcon, EarthIcon, TextSearch } from 'lucide-react';
-import type { TPromptGroup } from 'librechat-data-provider';
+import type { TPromptGroup } from 'legallibrechat-data-provider';
 import {
   Button,
   DropdownMenu,

@@ -2,7 +2,7 @@ import { FileText } from 'lucide-react';
 import { useRecoilState } from 'recoil';
 import { Fragment, useState, memo } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { useGetUserBalance, useGetStartupConfig } from 'librechat-data-provider/react-query';
+import { useGetUserBalance, useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
 import FilesView from '~/components/Chat/Input/Files/FilesView';
 import { useAuthContext } from '~/hooks/AuthContext';
 import useAvatar from '~/hooks/Messages/useAvatar';

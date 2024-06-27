@@ -3,9 +3,9 @@ import {
   useGetModelsQuery,
   useGetStartupConfig,
   useGetEndpointsQuery,
-} from 'librechat-data-provider/react-query';
-import { getConfigDefaults, EModelEndpoint, alternateName } from 'librechat-data-provider';
-import type { AssistantsEndpoint, TAssistantsMap, TEndpointsConfig } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider/react-query';
+import { getConfigDefaults, EModelEndpoint, alternateName } from 'legallibrechat-data-provider';
+import type { AssistantsEndpoint, TAssistantsMap, TEndpointsConfig } from 'legallibrechat-data-provider';
 import type { MentionOption } from '~/common';
 import useAssistantListMap from '~/hooks/Assistants/useAssistantListMap';
 import { mapEndpoints, getPresetTitle } from '~/utils';

@@ -1,5 +1,5 @@
 // import { useState, useEffect } from 'react';
-import { actionDelimiter, actionDomainSeparator, Constants } from 'librechat-data-provider';
+import { actionDelimiter, actionDomainSeparator, Constants } from 'legallibrechat-data-provider';
 import * as Popover from '@radix-ui/react-popover';
 import useLocalize from '~/hooks/useLocalize';
 import ProgressCircle from './ProgressCircle';
