@@ -4,7 +4,7 @@ import {
   supportsFiles,
   fileConfig as defaultFileConfig,
   mergeFileConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useGetFileConfig } from '~/data-provider';
 import { AttachmentIcon } from '~/components/svg';
 import { FileUpload } from '~/components/ui';

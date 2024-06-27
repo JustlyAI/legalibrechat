@@ -1,4 +1,4 @@
-const { ViolationTypes } = require('librechat-data-provider');
+const { ViolationTypes } = require('legallibrechat-data-provider');
 const { logViolation } = require('~/cache');
 const Balance = require('./Balance');
 /**

@@ -19,7 +19,7 @@ version: '3.4'
 #     - type: bind
 #       source: ./legallibrechat.yaml
 #       target: /app/legallibrechat.yaml
-#     image: ghcr.io/justlyai/librechat:latest # ghcr.io/danny-avila/librechat:latest
+#     image: ghcr.io/justlyai/legallibrechat:latest
 
 # ---------------------------------------------------
 
@@ -41,19 +41,19 @@ version: '3.4'
 
 # # BUILD FROM LATEST IMAGE
 #   api:
-#     image: librechat-dev:latest # ghcr.io/danny-avila/librechat-dev:latest
+#     image: ghcr.io/justlyai/legallibrechat-dev:latest
  
 # # BUILD FROM LATEST IMAGE (NUMBERED RELEASE)
 #   api:
-#     image: ghcr.io/justlyai/librechat:latest # ghcr.io/danny-avila/librechat:latest
+#     image: ghcr.io/justlyai/legallibrechat:latest 
 
 # # BUILD FROM LATEST API IMAGE
 #   api:
-#     image: librechat-dev-api:latest # ghcr.io/danny-avila/librechat-dev-api:latest
+#     image: ghcr.io/justlyai/legallibrechat-dev-api:latest 
 
 # # BUILD FROM LATEST API IMAGE (NUMBERED RELEASE)
 #   api:
-#     image: ghcr.io/justlyai/librechat-api:latest # ghcr.io/danny-avila/librechat-api:latest
+#     image: ghcr.io/justlyai/legallibrechat-api:latest 
 
 # # ADD MONGO-EXPRESS
 #   mongo-express:
@@ -99,7 +99,7 @@ version: '3.4'
 
 # # USE RAG API IMAGE WITH LOCAL EMBEDDINGS SUPPORT
 #  rag_api:
-#    image: ghcr.io/danny-avila/librechat-rag-api-dev:latest
+#    image: ghcr.io/justlyai/legallibrechat-rag-api-dev:latest
 
 # # ADD OLLAMA
 #  ollama:

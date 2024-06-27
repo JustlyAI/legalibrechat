@@ -1,5 +1,5 @@
 const Keyv = require('keyv');
-const { CacheKeys, ViolationTypes } = require('librechat-data-provider');
+const { CacheKeys, ViolationTypes } = require('legallibrechat-data-provider');
 const { logFile, violationFile } = require('./keyvFiles');
 const { math, isEnabled } = require('~/server/utils');
 const keyvRedis = require('./keyvRedis');

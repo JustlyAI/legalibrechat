@@ -1,4 +1,4 @@
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
 import type { IconMapProps } from '~/common';
 import {
   MinimalPlugin,

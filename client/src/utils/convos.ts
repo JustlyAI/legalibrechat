@@ -9,14 +9,14 @@ import {
   startOfToday,
   isWithinInterval,
 } from 'date-fns';
-import { EModelEndpoint, LocalStorageKeys } from 'librechat-data-provider';
+import { EModelEndpoint, LocalStorageKeys } from 'legallibrechat-data-provider';
 import type {
   TConversation,
   ConversationData,
   ConversationUpdater,
   GroupedConversations,
   ConversationListResponse,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 
 import { addData, deleteData, updateData, findPage } from './collection';
 import { InfiniteData } from '@tanstack/react-query';

@@ -6,7 +6,7 @@ import {
   QueryKeys,
   defaultOrderQuery,
   mergeFileConfig,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { UseMutationResult } from '@tanstack/react-query';
 import type {
   Metadata,
@@ -14,7 +14,7 @@ import type {
   AssistantsEndpoint,
   AssistantCreateParams,
   AssistantListResponse,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useUploadAssistantAvatarMutation, useGetFileConfig } from '~/data-provider';
 import { useToastContext, useAssistantsMapContext } from '~/Providers';
 import { AssistantAvatar, NoImage, AvatarMenu } from './Images';

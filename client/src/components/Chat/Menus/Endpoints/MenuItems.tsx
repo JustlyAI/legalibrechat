@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { Close } from '@radix-ui/react-popover';
-import { EModelEndpoint, alternateName } from 'librechat-data-provider';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
+import { EModelEndpoint, alternateName } from 'legallibrechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
 import MenuSeparator from '../UI/MenuSeparator';
 import { getEndpointField } from '~/utils';
 import MenuItem from './MenuItem';

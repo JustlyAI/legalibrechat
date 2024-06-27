@@ -19,7 +19,7 @@ import NavToggle from './NavToggle';
 import NavLinks from './NavLinks';
 import NewChat from './NewChat';
 import { cn } from '~/utils';
-import { ConversationListResponse } from 'librechat-data-provider';
+import { ConversationListResponse } from 'legallibrechat-data-provider';
 import store from '~/store';
 
 const Nav = ({ navVisible, setNavVisible }) => {

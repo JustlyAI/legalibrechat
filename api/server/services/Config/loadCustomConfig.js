@@ -1,5 +1,5 @@
 const path = require('path');
-const { CacheKeys, configSchema, EImageOutputType } = require('librechat-data-provider');
+const { CacheKeys, configSchema, EImageOutputType } = require('legallibrechat-data-provider');
 const getLogStores = require('~/cache/getLogStores');
 const loadYaml = require('~/utils/loadYaml');
 const { logger } = require('~/config');

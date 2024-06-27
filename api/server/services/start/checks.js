@@ -2,15 +2,15 @@ const {
   Constants,
   deprecatedAzureVariables,
   conflictingAzureVariables,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { isEnabled, checkEmailConfig } = require('~/server/utils');
 const { logger } = require('~/config');
 
 const secretDefaults = {
-  CREDS_KEY: 'ca3457e444bf228e4b9dfeeaa5bcf09a2f96bc0b8a65bcc715e4a621f76c3f97',
-  CREDS_IV: '74ac84ff5567c6c35cdc04143ac60e90',
-  JWT_SECRET: '8c6470f8c98e14061625dca7f6bd55ecda648fb80f7a9d81129541bd09867d32',
-  JWT_REFRESH_SECRET: 'e181e02de023081cedb849ea8538b30c614663e8bc29600f86d9cf1aa9dad6a4',
+  CREDS_KEY: 'b460d9867a26d092464f58abd9970b6585c17bf350a9e21274296e8883fd0557',
+  CREDS_IV: '66473f98e42bfab07f83f811497e42e7',
+  JWT_SECRET: '115454fa6bb0c5e641008d4e9c14918cccf2514bd607d9697229d1f8a6a501c1',
+  JWT_REFRESH_SECRET: '6e616c539ee43bdf677ecc04fb59efa5c5ee7abf01ce3e0b6c510219b0a656d3',
 };
 
 /**

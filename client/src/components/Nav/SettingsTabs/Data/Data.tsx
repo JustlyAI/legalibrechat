@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import * as Tabs from '@radix-ui/react-tabs';
-import { useClearConversationsMutation } from 'librechat-data-provider/react-query';
-import { SettingsTabValues } from 'librechat-data-provider';
+import { useClearConversationsMutation } from 'legallibrechat-data-provider/react-query';
+import { SettingsTabValues } from 'legallibrechat-data-provider';
 import { useConversation, useConversations, useOnClickOutside } from '~/hooks';
 import { RevokeKeysButton } from './RevokeKeysButton';
 import { DeleteCacheButton } from './DeleteCacheButton';

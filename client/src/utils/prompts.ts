@@ -1,5 +1,5 @@
 import { format } from 'date-fns';
-import type { TUser } from 'librechat-data-provider';
+import type { TUser } from 'legallibrechat-data-provider';
 
 export function replaceSpecialVars({ text, user }: { text: string; user?: TUser }) {
   if (!text) {

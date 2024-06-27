@@ -6,7 +6,7 @@ const {
   // StepStatus,
   MessageContentTypes,
   AssistantStreamEvents,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { retrieveAndProcessFile } = require('~/server/services/Files/process');
 const { processRequiredActions } = require('~/server/services/ToolService');
 const { saveMessage, updateMessageText } = require('~/models/Message');

@@ -1,4 +1,4 @@
-const { FileSources, EModelEndpoint, getConfigDefaults } = require('librechat-data-provider');
+const { FileSources, EModelEndpoint, getConfigDefaults } = require('legallibrechat-data-provider');
 const { checkVariables, checkHealth, checkConfig, checkAzureVariables } = require('./start/checks');
 const { azureAssistantsDefaults, assistantsConfigSetup } = require('./start/assistants');
 const { initializeFirebase } = require('./Files/Firebase/initialize');

@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justlyai/librechat.git"
+    "url": "git+https://github.com/justlyai/legallibrechat.git"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +29,7 @@
     "~/*": "./*"
   },
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/justlyai/LegalLibreChat/issues"
   },
   "homepage": "https://librechat.ai",
   "dependencies": {
@@ -65,7 +65,7 @@
     "keyv-file": "^0.2.0",
     "klona": "^2.0.6",
     "langchain": "^0.0.214",
-    "librechat-data-provider": "*",
+    "legallibrechat-data-provider": "*",
     "lodash": "^4.17.21",
     "meilisearch": "^0.38.0",
     "mime": "^3.0.0",

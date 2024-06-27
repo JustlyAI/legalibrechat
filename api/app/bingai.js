@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { KeyvFile } = require('keyv-file');
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('legallibrechat-data-provider');
 const { getUserKey, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { logger } = require('~/config');
 

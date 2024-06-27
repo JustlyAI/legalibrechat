@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Settings } from 'lucide-react';
 import { useRecoilValue } from 'recoil';
-import { EModelEndpoint } from 'librechat-data-provider';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
-import type { TConversation } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
+import type { TConversation } from 'legallibrechat-data-provider';
 import type { FC } from 'react';
 import { cn, getConvoSwitchLogic, getEndpointField, getIconKey } from '~/utils';
 import { useLocalize, useUserKey, useDefaultConvo } from '~/hooks';

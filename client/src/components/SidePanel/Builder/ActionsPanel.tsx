@@ -4,7 +4,7 @@ import {
   AuthTypeEnum,
   AuthorizationTypeEnum,
   TokenExchangeMethodEnum,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { AssistantPanelProps, ActionAuthForm } from '~/common';
 import { useAssistantsMapContext, useToastContext } from '~/Providers';
 import { Dialog, DialogTrigger } from '~/components/ui';

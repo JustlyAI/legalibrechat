@@ -1,4 +1,4 @@
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('legallibrechat-data-provider');
 const { HumanMessage, AIMessage, SystemMessage } = require('langchain/schema');
 
 /**

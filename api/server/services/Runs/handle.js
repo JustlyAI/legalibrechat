@@ -1,4 +1,4 @@
-const { RunStatus, defaultOrderQuery, CacheKeys } = require('librechat-data-provider');
+const { RunStatus, defaultOrderQuery, CacheKeys } = require('legallibrechat-data-provider');
 const getLogStores = require('~/cache/getLogStores');
 const { retrieveRun } = require('./methods');
 const { sleep } = require('~/server/utils');

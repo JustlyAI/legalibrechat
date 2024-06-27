@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const { EModelEndpoint, Constants, ForkOptions } = require('librechat-data-provider');
+const { EModelEndpoint, Constants, ForkOptions } = require('legallibrechat-data-provider');
 const { createImportBatchBuilder } = require('./importBatchBuilder');
 const BaseClient = require('~/app/clients/BaseClient');
 const { getConvo } = require('~/models/Conversation');

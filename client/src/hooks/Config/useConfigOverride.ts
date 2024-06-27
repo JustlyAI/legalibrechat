@@ -1,9 +1,9 @@
 import { useSetRecoilState } from 'recoil';
 import { useEffect, useCallback } from 'react';
 import { useQueryClient } from '@tanstack/react-query';
-import type { TEndpointsConfig, TModelsConfig } from 'librechat-data-provider';
+import type { TEndpointsConfig, TModelsConfig } from 'legallibrechat-data-provider';
 import { useGetEndpointsConfigOverride } from '~/data-provider';
-import { QueryKeys } from 'librechat-data-provider';
+import { QueryKeys } from 'legallibrechat-data-provider';
 import store from '~/store';
 
 type TempOverrideType = Record<string, unknown> & {

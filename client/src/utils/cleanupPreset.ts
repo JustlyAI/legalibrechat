@@ -1,5 +1,5 @@
-import { parseConvo } from 'librechat-data-provider';
-import type { TPreset } from 'librechat-data-provider';
+import { parseConvo } from 'legallibrechat-data-provider';
+import type { TPreset } from 'legallibrechat-data-provider';
 
 type TCleanupPreset = {
   preset: Partial<TPreset>;

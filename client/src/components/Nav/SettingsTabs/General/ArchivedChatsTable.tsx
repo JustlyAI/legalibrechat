@@ -6,7 +6,7 @@ import ArchiveButton from '~/components/Conversations/ArchiveButton';
 import DeleteButton from '~/components/Conversations/DeleteButton';
 import { Spinner } from '~/components/svg';
 import { cn } from '~/utils';
-import { ConversationListResponse } from 'librechat-data-provider';
+import { ConversationListResponse } from 'legallibrechat-data-provider';
 
 export default function ArchivedChatsTable({ className }: { className?: string }) {
   const localize = useLocalize();

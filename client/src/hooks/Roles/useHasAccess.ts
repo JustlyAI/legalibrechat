@@ -1,5 +1,5 @@
 import { useMemo, useCallback } from 'react';
-import { SystemRoles, PermissionTypes, Permissions } from 'librechat-data-provider';
+import { SystemRoles, PermissionTypes, Permissions } from 'legallibrechat-data-provider';
 import { useAuthContext } from '~/hooks/AuthContext';
 
 const useHasAccess = ({

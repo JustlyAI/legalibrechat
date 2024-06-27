@@ -1,5 +1,5 @@
-import { EModelEndpoint, isAssistantsEndpoint } from 'librechat-data-provider';
-import { useGetEndpointsQuery, useGetStartupConfig } from 'librechat-data-provider/react-query';
+import { EModelEndpoint, isAssistantsEndpoint } from 'legallibrechat-data-provider';
+import { useGetEndpointsQuery, useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
 import type { ReactNode } from 'react';
 import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from '~/components/ui';
 import { useChatContext, useAssistantsMapContext } from '~/Providers';

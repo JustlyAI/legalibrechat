@@ -1,7 +1,7 @@
 import { useRecoilValue } from 'recoil';
 import { useEffect, useMemo } from 'react';
-import { useGetStartupConfig } from 'librechat-data-provider/react-query';
-import { FileSources, LocalStorageKeys, getConfigDefaults } from 'librechat-data-provider';
+import { useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
+import { FileSources, LocalStorageKeys, getConfigDefaults } from 'legallibrechat-data-provider';
 import type { ExtendedFile } from '~/common';
 import { useDragHelpers, useSetFilesToDelete } from '~/hooks';
 import DragDropOverlay from './Input/Files/DragDropOverlay';

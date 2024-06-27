@@ -1,6 +1,6 @@
 import { useRecoilValue } from 'recoil';
 import { useLayoutEffect, useState, useRef, useCallback, useEffect } from 'react';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import useScrollToRef from '../useScrollToRef';
 import { useChatContext } from '~/Providers';
 import store from '~/store';

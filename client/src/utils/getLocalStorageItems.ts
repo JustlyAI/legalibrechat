@@ -1,4 +1,4 @@
-import { LocalStorageKeys } from 'librechat-data-provider';
+import { LocalStorageKeys } from 'legallibrechat-data-provider';
 
 export default function getLocalStorageItems() {
   const items = {

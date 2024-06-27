@@ -3,8 +3,8 @@ import {
   ContentTypes,
   imageGenTools,
   isImageVisionTool,
-} from 'librechat-data-provider';
-import type { TMessageContentParts, TMessage } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
+import type { TMessageContentParts, TMessage } from 'legallibrechat-data-provider';
 import type { TDisplayProps } from '~/common';
 import { ErrorMessage } from './MessageContent';
 import RetrievalCall from './RetrievalCall';

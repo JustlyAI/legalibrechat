@@ -1,4 +1,4 @@
-const { ErrorTypes } = require('librechat-data-provider');
+const { ErrorTypes } = require('legallibrechat-data-provider');
 const { encrypt, decrypt } = require('~/server/utils');
 const { updateUser, Key } = require('~/models');
 const { logger } = require('~/config');

@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
-import { PermissionTypes, Permissions } from 'librechat-data-provider';
-import { useGetStartupConfig } from 'librechat-data-provider/react-query';
-import type { TPromptGroup, TStartupConfig } from 'librechat-data-provider';
+import { PermissionTypes, Permissions } from 'legallibrechat-data-provider';
+import { useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
+import type { TPromptGroup, TStartupConfig } from 'legallibrechat-data-provider';
 import DashGroupItem from '~/components/Prompts/Groups/DashGroupItem';
 import ChatGroupItem from '~/components/Prompts/Groups/ChatGroupItem';
 import { useLocalize, useHasAccess } from '~/hooks';

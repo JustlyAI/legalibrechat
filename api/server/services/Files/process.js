@@ -13,7 +13,7 @@ const {
   checkOpenAIStorage,
   hostImageNamePrefix,
   isAssistantsEndpoint,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { addResourceFileId, deleteResourceFileId } = require('~/server/controllers/assistants/v2');
 const { convertImage, resizeAndConvert } = require('~/server/services/Files/images');
 const { getOpenAIClient } = require('~/server/controllers/assistants/helpers');

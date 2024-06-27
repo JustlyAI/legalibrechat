@@ -1,4 +1,4 @@
-const { CacheKeys, Constants } = require('librechat-data-provider');
+const { CacheKeys, Constants } = require('legallibrechat-data-provider');
 const getLogStores = require('~/cache/getLogStores');
 const { isEnabled } = require('~/server/utils');
 const { saveConvo } = require('~/models');

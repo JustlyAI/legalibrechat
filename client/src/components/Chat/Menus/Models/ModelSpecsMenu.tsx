@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 import { useRecoilValue } from 'recoil';
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
 import { Content, Portal, Root } from '@radix-ui/react-popover';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
-import type { TModelSpec, TConversation, TEndpointsConfig } from 'librechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
+import type { TModelSpec, TConversation, TEndpointsConfig } from 'legallibrechat-data-provider';
 import { getConvoSwitchLogic, getModelSpecIconURL } from '~/utils';
 import { useDefaultConvo, useNewConvo } from '~/hooks';
 import { useChatContext } from '~/Providers';

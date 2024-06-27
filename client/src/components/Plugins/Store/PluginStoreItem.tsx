@@ -1,4 +1,4 @@
-import { TPlugin } from 'librechat-data-provider';
+import { TPlugin } from 'legallibrechat-data-provider';
 import { XCircle, DownloadCloud } from 'lucide-react';
 import { useLocalize } from '~/hooks';
 

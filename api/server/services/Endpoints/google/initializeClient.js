@@ -1,4 +1,4 @@
-const { EModelEndpoint, AuthKeys } = require('librechat-data-provider');
+const { EModelEndpoint, AuthKeys } = require('legallibrechat-data-provider');
 const { getUserKey, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { GoogleClient } = require('~/app');
 

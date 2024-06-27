@@ -1,6 +1,6 @@
 const multer = require('multer');
 const express = require('express');
-const { CacheKeys } = require('librechat-data-provider');
+const { CacheKeys } = require('legallibrechat-data-provider');
 const { initializeClient } = require('~/server/services/Endpoints/assistants');
 const { getConvosByPage, deleteConvos, getConvo, saveConvo } = require('~/models/Conversation');
 const { storage, importFileFilter } = require('~/server/routes/files/multer');

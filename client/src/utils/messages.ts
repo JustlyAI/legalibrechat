@@ -1,5 +1,5 @@
-import { ContentTypes } from 'librechat-data-provider';
-import type { TMessage } from 'librechat-data-provider';
+import { ContentTypes } from 'legallibrechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 
 export const getLengthAndFirstFiveChars = (str?: string) => {
   const length = str ? str.length : 0;

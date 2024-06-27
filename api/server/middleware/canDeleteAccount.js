@@ -1,4 +1,4 @@
-const { SystemRoles } = require('librechat-data-provider');
+const { SystemRoles } = require('legallibrechat-data-provider');
 const { isEnabled } = require('~/server/utils');
 const { logger } = require('~/config');
 

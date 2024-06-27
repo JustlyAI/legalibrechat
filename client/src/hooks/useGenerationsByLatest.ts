@@ -1,5 +1,5 @@
-import type { TMessage } from 'librechat-data-provider';
-import { EModelEndpoint, isAssistantsEndpoint } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
+import { EModelEndpoint, isAssistantsEndpoint } from 'legallibrechat-data-provider';
 
 type TUseGenerations = {
   endpoint?: string;

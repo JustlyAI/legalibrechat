@@ -8,7 +8,7 @@ import {
   TooltipProvider,
 } from '~/components/ui';
 import { Share2Icon } from 'lucide-react';
-import type { TSharedLink } from 'librechat-data-provider';
+import type { TSharedLink } from 'legallibrechat-data-provider';
 import DialogTemplate from '~/components/ui/DialogTemplate';
 import SharedLinkButton from './SharedLinkButton';
 import ShareDialog from './ShareDialog';

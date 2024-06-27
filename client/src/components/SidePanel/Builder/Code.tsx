@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
-import { Capabilities } from 'librechat-data-provider';
+import { Capabilities } from 'legallibrechat-data-provider';
 import { useFormContext, Controller, useWatch } from 'react-hook-form';
-import type { AssistantsEndpoint } from 'librechat-data-provider';
+import type { AssistantsEndpoint } from 'legallibrechat-data-provider';
 import type { AssistantForm } from '~/common';
 import { Checkbox, QuestionMark } from '~/components/ui';
 import { useLocalize } from '~/hooks';

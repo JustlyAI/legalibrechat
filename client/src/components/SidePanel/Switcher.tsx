@@ -1,4 +1,4 @@
-import { isAssistantsEndpoint } from 'librechat-data-provider';
+import { isAssistantsEndpoint } from 'legallibrechat-data-provider';
 import type { SwitcherProps } from '~/common';
 import { Separator } from '~/components/ui/Separator';
 import AssistantSwitcher from './AssistantSwitcher';

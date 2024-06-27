@@ -14,7 +14,7 @@ const {
   EModelEndpoint,
   VisionModes,
   AuthKeys,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { encodeAndFormat } = require('~/server/services/Files/images');
 const { getModelMaxTokens } = require('~/utils');
 const { logger } = require('~/config');

@@ -1,7 +1,7 @@
 import { useMemo, useState, MouseEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { MessageSquare, Link as LinkIcon } from 'lucide-react';
-import type { SharedLinksResponse, TSharedLink } from 'librechat-data-provider';
+import type { SharedLinksResponse, TSharedLink } from 'legallibrechat-data-provider';
 import { useDeleteSharedLinkMutation, useSharedLinksInfiniteQuery } from '~/data-provider';
 import { useAuthContext, useLocalize, useNavScrolling } from '~/hooks';
 import { NotificationSeverity } from '~/common';

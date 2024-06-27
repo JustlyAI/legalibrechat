@@ -1,10 +1,10 @@
 import { render } from 'test/layout-test-utils';
 import userEvent from '@testing-library/user-event';
-import * as mockDataProvider from 'librechat-data-provider/react-query';
-import type { TStartupConfig } from 'librechat-data-provider';
+import * as mockDataProvider from 'legallibrechat-data-provider/react-query';
+import type { TStartupConfig } from 'legallibrechat-data-provider';
 import Login from '../LoginForm';
 
-jest.mock('librechat-data-provider/react-query');
+jest.mock('legallibrechat-data-provider/react-query');
 
 const mockLogin = jest.fn();
 

@@ -5,7 +5,7 @@ const {
   ContentTypes,
   AnnotationTypes,
   defaultOrderQuery,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { retrieveAndProcessFile } = require('~/server/services/Files/process');
 const { recordMessage, getMessages } = require('~/models/Message');
 const { saveConvo } = require('~/models/Conversation');
@@ -55,7 +55,7 @@ async function initThread({ openai, body, thread_id: _thread_id }) {
  * @param {string} [params.instructions] - Optional: from preset for `instructions` field.
  * Overrides the instructions of the assistant.
  * @param {string} [params.promptPrefix] - Optional: from preset for `additional_instructions` field.
- * @param {import('librechat-data-provider').TFile[]} [params.files] - Optional. List of Attached File Objects.
+ * @param {import('legallibrechat-data-provider').TFile[]} [params.files] - Optional. List of Attached File Objects.
  * @param {string[]} [params.file_ids] - Optional. List of File IDs attached to the userMessage.
  * @return {Promise<Run>} A promise that resolves to the created run object.
  */

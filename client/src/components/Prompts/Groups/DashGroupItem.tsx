@@ -1,7 +1,7 @@
 import { useState, useRef, useMemo } from 'react';
 import { MenuIcon, EarthIcon } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { SystemRoles, type TPromptGroup } from 'librechat-data-provider';
+import { SystemRoles, type TPromptGroup } from 'legallibrechat-data-provider';
 import { useDeletePromptGroup, useUpdatePromptGroup } from '~/data-provider';
 import {
   Input,

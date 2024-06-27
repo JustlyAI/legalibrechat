@@ -1,5 +1,5 @@
 import React from 'react';
-import type { TPreset } from 'librechat-data-provider';
+import type { TPreset } from 'legallibrechat-data-provider';
 import type { IconMapProps } from '~/common';
 import { icons } from '~/components/Chat/Menus/Endpoints/Icons';
 

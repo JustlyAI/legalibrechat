@@ -1,5 +1,5 @@
 const { promptTokensEstimate } = require('openai-chat-tokens');
-const { EModelEndpoint, supportsBalanceCheck } = require('librechat-data-provider');
+const { EModelEndpoint, supportsBalanceCheck } = require('legallibrechat-data-provider');
 const { formatFromLangChain } = require('~/app/clients/prompts');
 const checkBalance = require('~/models/checkBalance');
 const { isEnabled } = require('~/server/utils');

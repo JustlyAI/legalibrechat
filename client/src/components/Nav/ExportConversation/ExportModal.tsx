@@ -1,6 +1,6 @@
 import filenamify from 'filenamify';
 import { useEffect, useState } from 'react';
-import type { TConversation } from 'librechat-data-provider';
+import type { TConversation } from 'legallibrechat-data-provider';
 import { Dialog, DialogButton, Input, Label, Checkbox, Dropdown } from '~/components/ui';
 import { useLocalize, useExportConversation } from '~/hooks';
 import DialogTemplate from '~/components/ui/DialogTemplate';

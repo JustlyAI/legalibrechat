@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { EModelEndpoint, FileSources, VisionModes } = require('librechat-data-provider');
+const { EModelEndpoint, FileSources, VisionModes } = require('legallibrechat-data-provider');
 const { getStrategyFunctions } = require('../strategies');
 const { logger } = require('~/config');
 

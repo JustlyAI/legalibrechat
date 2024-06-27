@@ -5,7 +5,7 @@ const {
   EModelEndpoint,
   resolveHeaders,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const {
   getUserKeyValues,
   getUserKeyExpiry,

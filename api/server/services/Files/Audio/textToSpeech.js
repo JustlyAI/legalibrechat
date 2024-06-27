@@ -1,7 +1,7 @@
 const axios = require('axios');
 const getCustomConfig = require('~/server/services/Config/getCustomConfig');
 const { getRandomVoiceId, createChunkProcessor, splitTextIntoChunks } = require('./streamAudio');
-const { extractEnvVariable } = require('librechat-data-provider');
+const { extractEnvVariable } = require('legallibrechat-data-provider');
 const { logger } = require('~/config');
 
 /**

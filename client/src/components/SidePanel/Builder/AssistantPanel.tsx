@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useQueryClient } from '@tanstack/react-query';
 import { useForm, FormProvider, Controller, useWatch } from 'react-hook-form';
-import { useGetModelsQuery } from 'librechat-data-provider/react-query';
+import { useGetModelsQuery } from 'legallibrechat-data-provider/react-query';
 import {
   Tools,
   QueryKeys,
@@ -9,8 +9,8 @@ import {
   actionDelimiter,
   ImageVisionTool,
   defaultAssistantFormValues,
-} from 'librechat-data-provider';
-import type { FunctionTool, TConfig, TPlugin } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
+import type { FunctionTool, TConfig, TPlugin } from 'legallibrechat-data-provider';
 import type { AssistantForm, AssistantPanelProps } from '~/common';
 import { useCreateAssistantMutation, useUpdateAssistantMutation } from '~/data-provider';
 import { useAssistantsMapContext, useToastContext } from '~/Providers';

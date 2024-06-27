@@ -1,5 +1,5 @@
-import { Capabilities } from 'librechat-data-provider';
-import type { Assistant } from 'librechat-data-provider';
+import { Capabilities } from 'legallibrechat-data-provider';
+import type { Assistant } from 'legallibrechat-data-provider';
 import type { Option, ExtendedFile } from './types';
 
 export type TAssistantOption =

@@ -9,7 +9,7 @@ const {
   ViolationTypes,
   retrievalMimeTypes,
   AssistantStreamEvents,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const {
   initThread,
   recordUsage,
@@ -69,7 +69,7 @@ const chatV2 = async (req, res) => {
   let parentMessageId = _parentId;
   /** @type {TMessage[]} */
   let previousMessages = [];
-  /** @type {import('librechat-data-provider').TConversation | null} */
+  /** @type {import('legallibrechat-data-provider').TConversation | null} */
   let conversation = null;
   /** @type {string[]} */
   let file_ids = [];

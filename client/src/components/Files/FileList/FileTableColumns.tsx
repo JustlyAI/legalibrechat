@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import { FileSources, FileContext } from 'librechat-data-provider';
+import { FileSources, FileContext } from 'legallibrechat-data-provider';
 import type { ColumnDef } from '@tanstack/react-table';
-import type { TFile } from 'librechat-data-provider';
+import type { TFile } from 'legallibrechat-data-provider';
 import { CrossIcon, DotsIcon } from '~/components/svg';
 import { Button, Checkbox } from '~/components/ui';
 import { formatDate, getFileType } from '~/utils';

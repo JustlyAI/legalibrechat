@@ -16,15 +16,15 @@ import {
   tConvoUpdateSchema,
   removeNullishValues,
   isAssistantsEndpoint,
-} from 'librechat-data-provider';
-import { useGetUserBalance, useGetStartupConfig } from 'librechat-data-provider/react-query';
+} from 'legallibrechat-data-provider';
+import { useGetUserBalance, useGetStartupConfig } from 'legallibrechat-data-provider/react-query';
 import type {
   TResPlugin,
   TMessage,
   TConversation,
   TSubmission,
   ConversationData,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import {
   addConversation,
   deleteConversation,

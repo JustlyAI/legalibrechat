@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import { EModelEndpoint, alternateName, isAssistantsEndpoint } from 'librechat-data-provider';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
+import { EModelEndpoint, alternateName, isAssistantsEndpoint } from 'legallibrechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
 import type { TDialogProps } from '~/common';
 import DialogTemplate from '~/components/ui/DialogTemplate';
 import { RevokeKeysButton } from '~/components/Nav';

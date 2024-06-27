@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongodb');
-const { SystemRoles, SystemCategories } = require('librechat-data-provider');
+const { SystemRoles, SystemCategories } = require('legallibrechat-data-provider');
 const {
   getProjectByName,
   addGroupIdsToProject,

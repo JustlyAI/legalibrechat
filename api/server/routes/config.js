@@ -1,5 +1,5 @@
 const express = require('express');
-const { CacheKeys, defaultSocialLogins } = require('librechat-data-provider');
+const { CacheKeys, defaultSocialLogins } = require('legallibrechat-data-provider');
 const { getProjectByName } = require('~/models/Project');
 const { isEnabled } = require('~/server/utils');
 const { getLogStores } = require('~/cache');

@@ -1,7 +1,7 @@
 import { ListFilter, User, Share2, Dot } from 'lucide-react';
 import React, { useState, useCallback, useMemo } from 'react';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { SystemCategories } from 'librechat-data-provider';
+import { SystemCategories } from 'legallibrechat-data-provider';
 import type { OptionWithIcon } from '~/common';
 import { usePromptGroupsNav, useLocalize, useCategories } from '~/hooks';
 import {

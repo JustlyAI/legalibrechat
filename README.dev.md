@@ -4,9 +4,32 @@
 
 ## Local Dev Container
 
-docker buildx build --platform linux/amd64 -t legallibrechat-dev . --load 
+```docker-compose up --build```
 
+```docker compose up```
+```docker compose down```
 
+```docker buildx create --name multiarch --use```
+
+``` docker buildx build --platform linux/amd64,linux/arm64 \
+  -t ghcr.io/justlyai/legallibrechat-dev:latest \
+  -f Dockerfile.multi --target api-build \
+  --push .
+```
+
+``` docker buildx build --platform linux/amd64,linux/arm64 \
+  -t ghcr.io/YOUR_GITHUB_USERNAME/legallibrechat-dev-api:latest \
+  -f Dockerfile.multi --target api-build \
+  --push . ```
+
+``` docker buildx build --platform linux/amd64,linux/arm64 \
+  -t ghcr.io/justlyai/legallibrechat-dev-client:latest \
+  -f Dockerfile.multi --target client-build \
+  --push . ```
+
+``` docker compose up --pull always ```
+
+``` docker compose up --build ```
 
 **1. Local Docker Build**
 
@@ -31,7 +54,7 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
 
 1. **Fork and Clone the LibreChat Repository**
    ```bash
-   git clone https://github.com/justlyai/librechat.git
+   git clone https://github.com/justlyai/legallibrechat.git
    cd librechat
    ```
 
@@ -52,25 +75,25 @@ Install [Docker](https://www.docker.com/products/docker-desktop/)
    For `main` branch:
    ```bash
    git checkout main
-   docker build -t ghcr.io/justlyai/librechat:latest .
-   docker build -t ghcr.io/justlyai/librechat-api:latest .
-   docker build -t ghcr.io/justlyai/librechat-rag-api:latest .
+   docker build -t ghcr.io/justlyai/legallibrechat:latest .
+   docker build -t ghcr.io/justlyai/legallibrechat-api:latest .
+   docker build -t ghcr.io/justlyai/legallibrechat-rag-api:latest .
    
-   docker push ghcr.io/justlyai/librechat:latest
-   docker push ghcr.io/justlyai/librechat-api:latest
-   docker push ghcr.io/justlyai/librechat-rag-api:latest
+   docker push ghcr.io/justlyai/legallibrechat:latest
+   docker push ghcr.io/justlyai/legallibrechat-api:latest
+   docker push ghcr.io/justlyai/legallibrechat-rag-api:latest
    ```
    
    For `legal-features` branch:
    ```bash
    git checkout legal-features
-   docker build -t ghcr.io/justlyai/librechat:latest .
-   docker build -t ghcr.io/justlyai/librechat-api:latest .
-   docker build -t ghcr.io/justlyai/librechat-rag-api:latest .
+   docker build -t ghcr.io/justlyai/legallibrechat:latest .
+   docker build -t ghcr.io/justlyai/legallibrechat-api:latest .
+   docker build -t ghcr.io/justlyai/legallibrechat-rag-api:latest .
    
-   docker push ghcr.io/justlyai/librechat:latest
-   docker push ghcr.io/justlyai/librechat-api:latest
-   docker push ghcr.io/justlyai/librechat-rag-api:latest
+   docker push ghcr.io/justlyai/legallibrechat:latest
+   docker push ghcr.io/justlyai/legallibrechat-api:latest
+   docker push ghcr.io/justlyai/legallibrechat-rag-api:latest
    ```
    
    For `legal-features-dev` branch (local use only):

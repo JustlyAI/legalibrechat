@@ -5,7 +5,7 @@ const {
   getResponseSender,
   EModelEndpoint,
   validateVisionModel,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { encodeAndFormat } = require('~/server/services/Files/images/encode');
 const {
   truncateText,

@@ -1,7 +1,7 @@
 const sharp = require('sharp');
 const fs = require('fs').promises;
 const fetch = require('node-fetch');
-const { EImageOutputType } = require('librechat-data-provider');
+const { EImageOutputType } = require('legallibrechat-data-provider');
 const { resizeAndConvert } = require('./resize');
 const { logger } = require('~/config');
 

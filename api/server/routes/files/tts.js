@@ -1,6 +1,6 @@
 const multer = require('multer');
 const express = require('express');
-const { CacheKeys } = require('librechat-data-provider');
+const { CacheKeys } = require('legallibrechat-data-provider');
 const { getVoices, streamAudio, textToSpeech } = require('~/server/services/Files/Audio');
 const { getLogStores } = require('~/cache');
 const { logger } = require('~/config');

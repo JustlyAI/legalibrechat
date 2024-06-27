@@ -1,5 +1,5 @@
 import { Link } from 'lucide-react';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import { useLocalize, useNavigateToConvo } from '~/hooks';
 import { useSearchContext } from '~/Providers';
 import { getConversationById } from '~/utils';

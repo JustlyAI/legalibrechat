@@ -1,9 +1,9 @@
 import { render, screen, fireEvent } from 'test/layout-test-utils';
 import PluginStoreDialog from '../PluginStoreDialog';
 import userEvent from '@testing-library/user-event';
-import * as mockDataProvider from 'librechat-data-provider/react-query';
+import * as mockDataProvider from 'legallibrechat-data-provider/react-query';
 
-jest.mock('librechat-data-provider/react-query');
+jest.mock('legallibrechat-data-provider/react-query');
 
 class ResizeObserver {
   observe() {

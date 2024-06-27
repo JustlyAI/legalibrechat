@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { parseConvo } = require('librechat-data-provider');
+const { parseConvo } = require('legallibrechat-data-provider');
 const { saveMessage, getMessages } = require('~/models/Message');
 const { getConvo } = require('~/models/Conversation');
 const { logger } = require('~/config');

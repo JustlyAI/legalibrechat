@@ -1,12 +1,12 @@
 import debounce from 'lodash/debounce';
-import { FileSources, EToolResources } from 'librechat-data-provider';
+import { FileSources, EToolResources } from 'legallibrechat-data-provider';
 import { useCallback, useState, useEffect } from 'react';
 import type {
   BatchFile,
   TFile,
   DeleteFilesResponse,
   DeleteFilesBody,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { UseMutateAsyncFunction } from '@tanstack/react-query';
 import type { ExtendedFile, GenericSetter } from '~/common';
 import useSetFilesToDelete from './useSetFilesToDelete';

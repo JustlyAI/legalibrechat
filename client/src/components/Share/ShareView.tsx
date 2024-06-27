@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import { useParams } from 'react-router-dom';
-import { useGetSharedMessages } from 'librechat-data-provider/react-query';
+import { useGetSharedMessages } from 'legallibrechat-data-provider/react-query';
 import { ShareContext } from '~/Providers';
 import { Spinner } from '~/components/svg';
 import MessagesView from './MessagesView';

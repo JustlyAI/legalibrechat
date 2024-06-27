@@ -1,7 +1,7 @@
 import React from 'react';
 import { format } from 'date-fns';
 import { Layers3 } from 'lucide-react';
-import type { TPrompt, TPromptGroup } from 'librechat-data-provider';
+import type { TPrompt, TPromptGroup } from 'legallibrechat-data-provider';
 import { useLocalize } from '~/hooks';
 import { Tag } from '~/components/ui';
 import { cn } from '~/utils';

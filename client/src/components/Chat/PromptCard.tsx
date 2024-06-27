@@ -1,4 +1,4 @@
-import { TPromptGroup } from 'librechat-data-provider';
+import { TPromptGroup } from 'legallibrechat-data-provider';
 import CategoryIcon from '~/components/Prompts/Groups/CategoryIcon';
 
 export default function PromptCard({ promptGroup }: { promptGroup: TPromptGroup }) {

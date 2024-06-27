@@ -1,7 +1,7 @@
 // client/src/components/SidePanel/Parameters/DynamicCheckbox.tsx
 import { useMemo, useState } from 'react';
-import { OptionTypes } from 'librechat-data-provider';
-import type { DynamicSettingProps } from 'librechat-data-provider';
+import { OptionTypes } from 'legallibrechat-data-provider';
+import type { DynamicSettingProps } from 'legallibrechat-data-provider';
 import { Label, Checkbox, HoverCard, HoverCardTrigger } from '~/components/ui';
 import { useLocalize, useParameterEffects } from '~/hooks';
 import { useChatContext } from '~/Providers';

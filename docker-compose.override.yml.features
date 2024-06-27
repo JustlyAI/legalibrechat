@@ -2,16 +2,16 @@ version: '3.4'
 
 services:
   api:
-    image: ghcr.io/justlyai/legalibrechat:latest
+    image: ghcr.io/justlyai/legallibrechat:latest
     container_name: librechat
     environment:
       - APP_TITLE=librechat
-      - MONGO_URI=mongodb://mongodb:27017/librechat
+      - MONGO_URI=mongodb://mongodb:27017/legallibrechat
       - DATABASE_API_KEY=${DATABASE_API_KEY}
     volumes:
       - type: bind
-        source: ./legalibrechat.yaml
-        target: /app/legalibrechat.yaml
+        source: ./legallibrechat.yaml
+        target: /app/legallibrechat.yaml
 
   mongodb:
     container_name: chat-mongodb
@@ -31,7 +31,7 @@ services:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
 
   rag_api:
-    image: ghcr.io/justlyai/legalibrechat-rag-api:latest
+    image: ghcr.io/justlyai/legallibrechat-rag-api:latest
     container_name: rag_api
     environment:
       - RAG_API_KEY=${RAG_API_KEY}

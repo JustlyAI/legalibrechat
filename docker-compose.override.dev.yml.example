@@ -9,13 +9,13 @@ services:
     #   dockerfile: Dockerfile.dev
     environment:
       - APP_TITLE=librechat-Dev
-      - MONGO_URI=mongodb://mongodb:27017/librechatDev
+      - MONGO_URI=mongodb://mongodb:27017/legallibrechatDev
       - DATABASE_API_KEY=${DATABASE_API_KEY}
       - DEBUG=true
     volumes:
       - type: bind
         source: ./librechat.dev.yaml
-        target: /app/librechat.yaml
+        target: /app/legallibrechat.yaml
       - ./src:/app/src  # For live reloading
 
   mongodb:

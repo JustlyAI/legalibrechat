@@ -1,4 +1,4 @@
-const { Constants } = require('librechat-data-provider');
+const { Constants } = require('legallibrechat-data-provider');
 const { HumanMessage, AIMessage, SystemMessage } = require('langchain/schema');
 const { formatMessage, formatLangChainMessages, formatFromLangChain } = require('./formatMessages');
 

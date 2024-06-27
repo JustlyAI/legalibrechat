@@ -1,4 +1,4 @@
-const { ViolationTypes } = require('librechat-data-provider');
+const { ViolationTypes } = require('legallibrechat-data-provider');
 const { isEnabled, math, removePorts } = require('~/server/utils');
 const getLogStores = require('./getLogStores');
 const Session = require('~/models/Session');

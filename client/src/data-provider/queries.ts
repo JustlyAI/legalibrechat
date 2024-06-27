@@ -3,7 +3,7 @@ import {
   dataService,
   defaultOrderQuery,
   defaultAssistantsVersion,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { useQuery, useInfiniteQuery, useQueryClient } from '@tanstack/react-query';
 import type {
   UseInfiniteQueryOptions,
@@ -11,7 +11,7 @@ import type {
   UseQueryOptions,
   UseQueryResult,
 } from '@tanstack/react-query';
-import type t from 'librechat-data-provider';
+import type t from 'legallibrechat-data-provider';
 import type {
   Action,
   TPreset,
@@ -28,7 +28,7 @@ import type {
   TCheckUserKeyResponse,
   SharedLinkListParams,
   SharedLinksResponse,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import { findPageForConversation, addFileToCache } from '~/utils';
 
 export const useGetFiles = <TData = TFile[] | boolean>(

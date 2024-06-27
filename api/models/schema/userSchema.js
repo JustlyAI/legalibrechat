@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { SystemRoles } = require('librechat-data-provider');
+const { SystemRoles } = require('legallibrechat-data-provider');
 
 /**
  * @typedef {Object} MongoSession

@@ -1,5 +1,5 @@
 import { atom } from 'recoil';
-import { SettingsViews } from 'librechat-data-provider';
+import { SettingsViews } from 'legallibrechat-data-provider';
 import { atomWithLocalStorage } from '~/store/utils';
 import type { TOptionSettings } from '~/common';
 

@@ -5,7 +5,7 @@ import {
   ImageDetail,
   imageDetailNumeric,
   imageDetailValue,
-} from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
 import type { TModelSelectProps, OnInputNumberChange } from '~/common';
 import {
   Input,

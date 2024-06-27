@@ -1,5 +1,5 @@
-import { InfiniteCollections } from 'librechat-data-provider';
-import { SharedLinkListData, SharedLinkListResponse, TSharedLink } from 'librechat-data-provider';
+import { InfiniteCollections } from 'legallibrechat-data-provider';
+import { SharedLinkListData, SharedLinkListResponse, TSharedLink } from 'legallibrechat-data-provider';
 import { addData, deleteData, updateData } from './collection';
 import { InfiniteData } from '@tanstack/react-query';
 

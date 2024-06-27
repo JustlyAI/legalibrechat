@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useRecoilValue } from 'recoil';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'legallibrechat-data-provider';
 import { VolumeIcon, VolumeMuteIcon, Spinner } from '~/components/svg';
 import { useLocalize, useTextToSpeech } from '~/hooks';
 import store from '~/store';

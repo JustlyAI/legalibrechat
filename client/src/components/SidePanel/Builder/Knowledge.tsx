@@ -3,8 +3,8 @@ import {
   mergeFileConfig,
   retrievalMimeTypes,
   fileConfig as defaultFileConfig,
-} from 'librechat-data-provider';
-import type { AssistantsEndpoint } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider';
+import type { AssistantsEndpoint } from 'legallibrechat-data-provider';
 import type { ExtendedFile } from '~/common';
 import FileRow from '~/components/Chat/Input/Files/FileRow';
 import { useGetFileConfig } from '~/data-provider';

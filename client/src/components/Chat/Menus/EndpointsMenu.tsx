@@ -1,6 +1,6 @@
 import { Content, Portal, Root } from '@radix-ui/react-popover';
-import { alternateName, isAssistantsEndpoint } from 'librechat-data-provider';
-import { useGetEndpointsQuery } from 'librechat-data-provider/react-query';
+import { alternateName, isAssistantsEndpoint } from 'legallibrechat-data-provider';
+import { useGetEndpointsQuery } from 'legallibrechat-data-provider/react-query';
 import type { FC } from 'react';
 import { useChatContext, useAssistantsMapContext } from '~/Providers';
 import EndpointItems from './Endpoints/MenuItems';

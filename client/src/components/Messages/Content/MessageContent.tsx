@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
-import { ViolationTypes } from 'librechat-data-provider';
-import type { TResPlugin } from 'librechat-data-provider';
+import { ViolationTypes } from 'legallibrechat-data-provider';
+import type { TResPlugin } from 'legallibrechat-data-provider';
 import type { TMessageContentProps, TText, TDisplayProps } from '~/common';
 import { useAuthContext } from '~/hooks';
 import { cn } from '~/utils';

@@ -1,4 +1,4 @@
-const { Constants, ForkOptions } = require('librechat-data-provider');
+const { Constants, ForkOptions } = require('legallibrechat-data-provider');
 
 jest.mock('~/models/Conversation', () => ({
   getConvo: jest.fn(),

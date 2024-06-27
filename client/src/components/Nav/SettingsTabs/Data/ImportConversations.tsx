@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Import } from 'lucide-react';
-import type { TError } from 'librechat-data-provider';
+import type { TError } from 'legallibrechat-data-provider';
 import { useUploadConversationsMutation } from '~/data-provider';
 import { useLocalize, useConversations } from '~/hooks';
 import { useToastContext } from '~/Providers';

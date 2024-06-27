@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 const express = require('express');
-const { Constants } = require('librechat-data-provider');
+const { Constants } = require('legallibrechat-data-provider');
 const { handleError, sendMessage, createOnProgress, handleText } = require('~/server/utils');
 const { saveMessage, getConvoTitle, saveConvo, getConvo } = require('~/models');
 const { setHeaders } = require('~/server/middleware');

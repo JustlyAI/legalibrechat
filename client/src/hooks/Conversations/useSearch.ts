@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useGetSearchEnabledQuery } from 'librechat-data-provider/react-query';
+import { useGetSearchEnabledQuery } from 'legallibrechat-data-provider/react-query';
 import { useSearchInfiniteQuery } from '~/data-provider';
 import useConversation from './useConversation';
 import store from '~/store';

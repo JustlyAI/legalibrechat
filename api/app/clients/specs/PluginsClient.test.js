@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { Constants } = require('librechat-data-provider');
+const { Constants } = require('legallibrechat-data-provider');
 const { HumanChatMessage, AIChatMessage } = require('langchain/schema');
 const PluginsClient = require('../PluginsClient');
 

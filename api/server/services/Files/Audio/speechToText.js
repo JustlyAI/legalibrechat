@@ -2,7 +2,7 @@ const axios = require('axios');
 const { Readable } = require('stream');
 const { logger } = require('~/config');
 const getCustomConfig = require('~/server/services/Config/getCustomConfig');
-const { extractEnvVariable } = require('librechat-data-provider');
+const { extractEnvVariable } = require('legallibrechat-data-provider');
 
 /**
  * Handle the response from the STT API

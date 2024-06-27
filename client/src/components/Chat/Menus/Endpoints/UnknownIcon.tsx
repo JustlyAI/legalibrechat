@@ -1,4 +1,4 @@
-import { EModelEndpoint, KnownEndpoints } from 'librechat-data-provider';
+import { EModelEndpoint, KnownEndpoints } from 'legallibrechat-data-provider';
 import { CustomMinimalIcon } from '~/components/svg';
 import { IconContext } from '~/common';
 

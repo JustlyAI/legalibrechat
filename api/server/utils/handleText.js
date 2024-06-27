@@ -4,7 +4,7 @@ const {
   isAssistantsEndpoint,
   defaultRetrievalModels,
   defaultAssistantsVersion,
-} = require('librechat-data-provider');
+} = require('legallibrechat-data-provider');
 const { getCitations, citeText } = require('./citations');
 const partialRight = require('lodash/partialRight');
 const { sendMessage } = require('./streamResponse');

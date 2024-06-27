@@ -1,8 +1,8 @@
 import debounce from 'lodash/debounce';
 import { useEffect, useRef, useCallback } from 'react';
 import { useRecoilValue, useRecoilState } from 'recoil';
-import { isAssistantsEndpoint } from 'librechat-data-provider';
-import type { TEndpointOption } from 'librechat-data-provider';
+import { isAssistantsEndpoint } from 'legallibrechat-data-provider';
+import type { TEndpointOption } from 'legallibrechat-data-provider';
 import type { KeyboardEvent } from 'react';
 import { forceResize, insertTextAtCursor, getAssistantName } from '~/utils';
 import { useAssistantsMapContext } from '~/Providers/AssistantsMapContext';

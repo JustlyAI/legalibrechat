@@ -1,4 +1,4 @@
-const { parseConvo, EModelEndpoint } = require('librechat-data-provider');
+const { parseConvo, EModelEndpoint } = require('legallibrechat-data-provider');
 const { getModelsConfig } = require('~/server/controllers/ModelController');
 const azureAssistants = require('~/server/services/Endpoints/azureAssistants');
 const assistants = require('~/server/services/Endpoints/assistants');

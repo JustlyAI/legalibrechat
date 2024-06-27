@@ -8,7 +8,7 @@ import {
   findPageForConversation,
   groupConversationsByDate,
 } from './convos';
-import type { TConversation, ConversationData } from 'librechat-data-provider';
+import type { TConversation, ConversationData } from 'legallibrechat-data-provider';
 import { normalizeData } from './collection';
 
 describe('Conversation Utilities', () => {

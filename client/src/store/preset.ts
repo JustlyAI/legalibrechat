@@ -1,5 +1,5 @@
 import { atom } from 'recoil';
-import { TPreset } from 'librechat-data-provider';
+import { TPreset } from 'legallibrechat-data-provider';
 
 const presets = atom<TPreset[]>({
   key: 'presets',

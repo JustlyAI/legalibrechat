@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'legallibrechat-data-provider';
 import {
   useGetModelsQuery,
   useGetStartupConfig,
   useGetEndpointsQuery,
-} from 'librechat-data-provider/react-query';
-import type { TPreset } from 'librechat-data-provider';
+} from 'legallibrechat-data-provider/react-query';
+import type { TPreset } from 'legallibrechat-data-provider';
 import { useNewConvo, useAppStartup, useAssistantListMap } from '~/hooks';
 import { getDefaultModelSpec, getModelSpecIconURL } from '~/utils';
 import { useGetConvoIdQuery } from '~/data-provider';

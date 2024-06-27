@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { Capabilities } from 'librechat-data-provider';
-import type { TConfig, AssistantsEndpoint } from 'librechat-data-provider';
+import { Capabilities } from 'legallibrechat-data-provider';
+import type { TConfig, AssistantsEndpoint } from 'legallibrechat-data-provider';
 import ImageVision from './ImageVision';
 import { useLocalize } from '~/hooks';
 import Retrieval from './Retrieval';

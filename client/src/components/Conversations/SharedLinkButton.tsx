@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import copy from 'copy-to-clipboard';
 import { Copy, Link } from 'lucide-react';
-import type { TSharedLink } from 'librechat-data-provider';
+import type { TSharedLink } from 'legallibrechat-data-provider';
 import { useUpdateSharedLinkMutation } from '~/data-provider';
 import { NotificationSeverity } from '~/common';
 import { useToastContext } from '~/Providers';
